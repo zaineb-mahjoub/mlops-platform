@@ -1,7 +1,6 @@
 from fastapi import FastAPI
+from app.api import health
 
 app = FastAPI(title="MLOps Platform API", version="0.1.0")
 
-@app.get("/health")
-def health_check():
-    return {"status": "ok"}
+app.include_router(health.router) 
