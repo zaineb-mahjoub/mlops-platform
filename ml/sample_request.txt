@@ -1,0 +1,1 @@
+We need a web platform for managing customer orders, with Stripe payment integration and PostgreSQL database. The system should send real-time notifications when orders are placed. Deadline: 45 days.

@@ -1,0 +1,1 @@
+﻿Client wants a web application with user authentication, a PostgreSQL database, Stripe integration, and deployment on AWS.

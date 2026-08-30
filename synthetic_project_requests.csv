@@ -1,0 +1,901 @@
+num_functional_requirements,num_integrations,requires_web_component,requires_mobile_component,requires_ai_ml_component,requires_cloud_infra,requires_data_pipeline,num_technologies_mentioned,has_deadline,deadline_days,complexity_keyword_count,requirement_text_length,project_category,estimated_effort_person_days
+1,0,0,0,1,0,0,7,0,57.0,4,629,AI/ML & Data,73.2
+13,2,0,0,0,0,1,0,1,43.0,0,425,Mobile Application,67.6
+1,4,1,0,0,1,0,6,1,41.0,3,688,Cloud/DevOps & Infrastructure,87.5
+9,2,0,0,1,0,1,9,1,76.0,7,937,AI/ML & Data,118.3
+14,2,1,0,0,0,0,6,1,60.0,2,511,Web Application,72.0
+7,5,0,0,0,1,1,7,1,96.0,5,524,Cloud/DevOps & Infrastructure,90.4
+8,3,0,0,0,0,1,4,0,57.0,3,924,AI/ML & Data,90.0
+7,2,0,0,1,1,0,4,1,88.0,4,502,AI/ML & Data,92.9
+11,1,1,0,0,0,0,2,0,57.0,3,570,Web Application,51.0
+8,2,1,1,0,1,0,7,0,57.0,5,819,Mobile Application,89.8
+9,2,0,1,0,0,0,4,1,70.0,3,550,Mobile Application,72.1
+1,1,0,0,1,1,1,3,0,57.0,4,409,Cloud/DevOps & Infrastructure,68.8
+8,0,0,1,0,1,0,5,0,57.0,2,707,Mobile Application,77.0
+4,4,0,0,1,1,0,8,0,57.0,2,596,Cloud/DevOps & Infrastructure,86.7
+10,1,0,1,0,0,0,5,0,57.0,3,917,Mobile Application,62.3
+12,1,1,0,0,0,0,7,1,28.0,1,491,Web Application,64.1
+6,3,0,1,0,1,0,8,0,57.0,7,462,Mobile Application,85.5
+4,0,1,1,0,0,0,6,0,57.0,2,411,Web Application,43.5
+6,5,0,0,0,0,0,9,1,78.0,6,542,Cloud/DevOps & Infrastructure,82.3
+13,3,0,1,0,0,0,3,1,62.0,2,565,Mobile Application,84.3
+6,2,1,0,1,1,1,6,1,53.0,8,630,AI/ML & Data,86.6
+9,3,0,1,0,1,0,5,0,57.0,3,808,Mobile Application,61.8
+8,5,1,0,0,1,1,6,1,43.0,5,491,Cloud/DevOps & Infrastructure,94.8
+4,3,0,0,0,1,1,2,1,134.0,2,321,Cloud/DevOps & Infrastructure,83.5
+7,0,1,1,1,0,1,5,1,73.0,5,723,AI/ML & Data,81.0
+9,3,1,0,1,1,0,5,0,57.0,4,651,Web Application,79.7
+6,1,1,1,0,1,0,4,1,40.0,3,535,Mobile Application,59.1
+7,1,1,1,0,0,0,0,1,0.0,0,228,Web Application,35.1
+10,3,1,0,0,0,0,4,1,44.0,3,585,Web Application,57.7
+7,3,0,0,0,1,1,9,0,57.0,8,905,AI/ML & Data,97.2
+6,0,1,0,1,0,0,9,0,57.0,8,491,AI/ML & Data,88.0
+7,3,0,0,0,1,1,8,1,57.0,3,443,Cloud/DevOps & Infrastructure,71.8
+9,1,1,0,0,1,0,5,1,71.0,1,743,Web Application,64.3
+5,3,0,1,0,0,1,9,0,57.0,4,575,Mobile Application,64.5
+6,2,0,1,0,0,0,5,0,57.0,0,642,Mobile Application,64.7
+4,3,1,0,0,0,0,4,1,115.0,3,585,Web Application,54.3
+3,2,1,0,0,1,0,7,1,56.0,2,262,Web Application,55.6
+10,4,0,1,0,0,0,10,0,57.0,2,430,Mobile Application,73.0
+11,2,1,0,0,0,1,4,0,57.0,3,306,Web Application,67.2
+6,4,0,0,1,0,1,3,1,71.0,6,574,AI/ML & Data,89.3
+4,3,1,1,0,0,0,6,0,57.0,3,577,Mobile Application,63.1
+5,5,0,0,0,1,0,3,1,40.0,4,313,Cloud/DevOps & Infrastructure,86.6
+9,0,1,0,1,0,1,10,0,57.0,4,609,AI/ML & Data,87.4
+7,5,1,0,0,0,0,2,1,34.0,4,705,Web Application,88.0
+9,3,0,0,0,1,0,4,1,80.0,5,588,Cloud/DevOps & Infrastructure,89.9
+4,0,0,0,1,1,0,3,1,71.0,6,350,Cloud/DevOps & Infrastructure,61.1
+7,3,1,1,1,0,0,6,0,57.0,2,491,Mobile Application,82.7
+6,1,1,0,0,0,0,6,0,57.0,3,506,Web Application,42.6
+0,2,0,0,1,1,1,7,0,57.0,9,359,AI/ML & Data,85.6
+6,3,1,0,0,0,0,2,0,57.0,2,527,Web Application,51.9
+5,3,1,0,0,1,0,3,0,57.0,1,406,Web Application,67.7
+8,2,1,0,0,0,0,6,1,10.0,3,200,Web Application,54.6
+6,2,0,0,1,0,0,6,0,57.0,7,890,AI/ML & Data,95.7
+13,1,0,0,1,0,1,9,0,57.0,1,464,AI/ML & Data,105.8
+2,1,0,0,1,1,1,8,0,57.0,5,337,AI/ML & Data,77.5
+9,2,0,0,1,0,1,6,1,26.0,5,487,AI/ML & Data,87.9
+8,4,0,0,0,0,0,5,1,61.0,0,361,Mobile Application,69.9
+9,1,0,1,0,0,0,0,1,46.0,4,402,Cloud/DevOps & Infrastructure,51.6
+9,4,1,0,0,0,0,3,1,98.0,2,670,Web Application,56.2
+9,2,1,0,0,0,0,5,0,57.0,2,398,Web Application,61.4
+9,4,1,0,1,1,1,7,0,57.0,7,181,AI/ML & Data,116.0
+10,5,1,1,0,0,0,1,1,54.0,4,551,Mobile Application,65.8
+9,5,0,1,0,1,0,5,1,98.0,1,474,Mobile Application,80.0
+7,6,0,0,1,0,0,4,0,57.0,4,1010,AI/ML & Data,116.3
+4,3,1,1,0,0,0,6,1,90.0,2,308,Mobile Application,56.8
+7,4,0,1,0,0,0,4,1,86.0,3,529,Mobile Application,63.4
+10,2,0,1,0,0,0,10,1,26.0,0,581,Mobile Application,60.7
+11,2,1,0,0,0,0,4,0,57.0,0,596,Web Application,60.8
+11,0,0,0,0,0,1,4,1,63.0,5,669,Web Application,62.2
+5,2,0,1,0,0,0,7,1,35.0,0,522,Mobile Application,55.3
+6,2,1,0,0,0,0,4,0,57.0,3,384,Mobile Application,48.0
+6,3,0,1,0,0,0,3,0,57.0,1,455,Mobile Application,50.4
+4,3,0,0,1,1,0,3,0,57.0,7,618,Cloud/DevOps & Infrastructure,88.9
+1,1,1,0,0,0,1,6,1,12.0,4,666,Web Application,55.0
+7,2,1,1,1,0,0,5,0,57.0,1,434,Web Application,60.5
+8,2,1,0,0,0,0,7,0,57.0,0,204,Web Application,50.7
+7,0,1,0,0,0,0,7,1,34.0,4,597,Web Application,60.9
+4,3,0,0,0,0,0,8,1,52.0,5,694,AI/ML & Data,92.9
+3,3,0,1,0,1,0,3,1,41.0,2,649,Mobile Application,66.7
+8,0,1,0,1,0,1,9,0,57.0,2,933,AI/ML & Data,101.3
+10,2,0,1,1,0,1,5,1,5.0,2,437,AI/ML & Data,97.6
+9,0,0,1,0,1,0,6,0,57.0,1,580,Mobile Application,52.8
+4,0,0,0,0,1,1,7,1,43.0,3,289,Cloud/DevOps & Infrastructure,71.1
+7,3,1,1,0,0,1,3,0,57.0,3,583,Web Application,41.9
+5,3,1,0,0,0,1,1,0,57.0,4,492,Web Application,51.8
+5,4,0,0,0,1,0,2,1,25.0,4,495,Web Application,60.5
+2,1,0,0,1,0,0,5,1,62.0,3,1050,AI/ML & Data,86.6
+8,2,0,1,0,0,0,5,0,57.0,2,509,Mobile Application,60.7
+7,2,1,1,0,1,0,5,1,83.0,5,299,Web Application,46.9
+8,2,1,1,0,0,0,4,1,36.0,3,435,Mobile Application,51.7
+9,2,1,0,1,0,0,4,1,40.0,5,432,Cloud/DevOps & Infrastructure,73.8
+9,1,1,0,0,1,1,11,0,57.0,6,648,AI/ML & Data,108.4
+7,3,0,1,1,0,0,5,1,77.0,0,329,Mobile Application,43.9
+9,4,0,1,0,1,0,4,1,69.0,4,401,Mobile Application,83.6
+9,2,1,0,0,0,0,3,0,57.0,3,316,Web Application,66.3
+7,1,1,1,0,0,0,2,0,57.0,5,591,Mobile Application,67.5
+8,1,0,1,0,1,0,1,1,21.0,2,558,Mobile Application,66.8
+8,3,1,0,0,1,1,7,1,41.0,2,430,Web Application,72.2
+11,1,1,0,0,0,0,1,0,57.0,4,538,Web Application,50.3
+3,3,0,1,0,1,0,7,0,57.0,4,587,Cloud/DevOps & Infrastructure,73.2
+6,3,0,0,0,1,0,4,1,66.0,4,446,Cloud/DevOps & Infrastructure,91.9
+8,1,0,0,1,1,0,6,0,57.0,5,819,AI/ML & Data,102.3
+6,1,1,0,0,1,0,7,0,57.0,1,519,Web Application,55.7
+3,4,0,0,0,1,1,4,1,99.0,3,308,Cloud/DevOps & Infrastructure,76.1
+4,1,0,0,1,0,0,6,1,62.0,2,717,AI/ML & Data,83.9
+4,0,1,1,1,1,1,7,1,120.0,4,556,AI/ML & Data,91.7
+8,3,0,1,0,0,0,5,1,55.0,1,469,Mobile Application,63.5
+7,3,1,0,0,0,0,7,1,34.0,4,767,Web Application,66.6
+8,1,1,0,0,0,0,3,0,57.0,2,523,Web Application,60.0
+3,1,0,0,0,1,0,6,0,57.0,3,315,Cloud/DevOps & Infrastructure,57.3
+4,2,0,1,0,0,0,5,1,57.0,4,395,Mobile Application,61.5
+10,0,1,0,0,0,0,3,0,57.0,2,471,Web Application,59.2
+5,3,1,0,0,0,0,7,1,22.0,2,40,Web Application,60.4
+10,4,0,1,0,0,0,6,1,13.0,6,696,Mobile Application,84.5
+6,1,1,0,0,0,1,4,0,57.0,1,366,AI/ML & Data,29.0
+6,4,0,0,0,1,0,7,0,57.0,6,458,Cloud/DevOps & Infrastructure,83.9
+11,4,0,0,1,1,1,7,0,57.0,0,753,AI/ML & Data,90.1
+7,2,0,0,1,0,1,7,1,91.0,10,817,AI/ML & Data,112.7
+8,2,0,1,0,1,0,8,0,57.0,4,648,Mobile Application,79.3
+13,5,0,1,0,1,0,8,1,74.0,1,497,Mobile Application,103.6
+8,3,1,1,0,1,0,8,1,75.0,2,184,AI/ML & Data,59.0
+11,2,0,1,0,0,0,2,1,59.0,4,718,Mobile Application,59.5
+7,1,1,0,0,0,0,6,1,68.0,1,647,AI/ML & Data,49.0
+2,2,0,1,0,1,0,3,1,17.0,5,295,Mobile Application,66.9
+7,4,1,0,0,0,0,4,0,57.0,2,670,Web Application,80.9
+9,3,0,1,0,1,0,3,0,57.0,1,591,Mobile Application,81.0
+16,2,1,0,0,0,0,4,0,57.0,3,623,Web Application,71.5
+6,0,1,0,0,0,0,1,1,55.0,0,303,Web Application,32.3
+7,1,1,0,0,0,0,6,0,57.0,3,364,Web Application,52.2
+10,3,0,1,0,1,0,5,0,57.0,2,566,Mobile Application,82.6
+10,1,1,0,0,0,0,7,1,0.0,5,482,Web Application,58.3
+7,6,0,1,0,1,1,7,0,57.0,5,404,Cloud/DevOps & Infrastructure,83.4
+13,4,1,1,0,1,0,2,0,57.0,2,817,Mobile Application,87.0
+6,3,1,1,0,1,0,6,1,55.0,2,522,Web Application,71.1
+8,4,0,1,0,0,0,5,1,121.0,2,503,Cloud/DevOps & Infrastructure,53.6
+7,0,1,0,0,0,0,7,0,57.0,4,724,Web Application,61.0
+6,0,0,0,0,0,0,7,1,104.0,8,546,Cloud/DevOps & Infrastructure,70.2
+6,4,0,1,0,0,0,5,0,57.0,3,619,Mobile Application,75.6
+8,4,0,0,1,0,0,3,0,57.0,3,898,AI/ML & Data,102.2
+12,1,1,1,0,0,0,3,1,20.0,2,624,Web Application,51.2
+12,2,0,1,0,0,0,8,1,106.0,1,448,Mobile Application,68.8
+9,2,0,1,0,1,0,5,1,96.0,3,721,Mobile Application,73.5
+3,6,0,0,0,1,0,6,0,57.0,6,373,Cloud/DevOps & Infrastructure,80.2
+9,2,0,1,0,1,0,6,1,73.0,1,523,Mobile Application,61.1
+8,3,0,1,0,0,1,4,1,46.0,4,765,Mobile Application,81.1
+12,2,1,0,0,0,1,7,0,57.0,1,277,Web Application,63.8
+8,2,1,1,0,0,0,8,1,64.0,3,574,Web Application,63.5
+8,4,0,1,0,1,0,0,1,58.0,3,533,Mobile Application,81.2
+12,1,0,1,0,0,0,5,1,65.0,4,290,Mobile Application,61.2
+4,4,1,0,0,0,1,4,0,57.0,2,440,Web Application,50.4
+1,5,0,0,0,1,0,9,1,55.0,5,380,Cloud/DevOps & Infrastructure,76.4
+7,4,1,1,0,1,0,8,1,11.0,5,346,Cloud/DevOps & Infrastructure,73.8
+10,3,1,0,0,0,0,6,1,47.0,2,475,Web Application,84.1
+11,5,1,1,0,0,0,6,1,58.0,3,552,Mobile Application,73.2
+10,3,1,0,0,0,0,4,1,52.0,3,403,Web Application,70.8
+8,0,0,0,0,1,1,5,0,57.0,4,566,AI/ML & Data,82.4
+3,2,1,0,1,0,0,6,1,57.0,0,501,Web Application,68.2
+4,3,0,0,0,1,0,7,1,96.0,6,696,AI/ML & Data,89.2
+5,2,0,0,1,0,1,9,0,57.0,6,619,AI/ML & Data,103.8
+6,1,0,1,1,0,1,3,1,152.0,6,493,AI/ML & Data,80.5
+6,1,1,0,0,0,0,1,1,20.0,2,164,Web Application,40.3
+5,4,1,0,0,1,0,7,0,57.0,4,390,Cloud/DevOps & Infrastructure,71.1
+6,0,1,0,1,0,0,7,0,57.0,2,371,Web Application,60.7
+11,2,1,0,0,0,0,3,1,117.0,3,427,Web Application,62.8
+12,2,0,1,1,0,1,5,1,40.0,1,453,Mobile Application,86.3
+13,5,0,1,0,0,0,3,0,57.0,0,285,Mobile Application,83.0
+5,3,0,0,1,1,0,10,1,95.0,4,559,Cloud/DevOps & Infrastructure,73.3
+6,3,0,0,0,1,0,6,1,59.0,7,260,Cloud/DevOps & Infrastructure,77.4
+8,3,1,0,0,0,0,5,0,57.0,2,412,Web Application,59.1
+11,3,0,0,0,1,0,10,0,57.0,3,489,Cloud/DevOps & Infrastructure,72.0
+10,4,1,0,0,0,0,5,0,57.0,6,427,AI/ML & Data,64.4
+15,1,1,1,0,1,0,4,0,57.0,2,254,Mobile Application,82.1
+11,1,1,0,0,0,0,4,0,57.0,4,557,Web Application,48.1
+4,4,0,0,1,1,0,3,1,57.0,2,491,Cloud/DevOps & Infrastructure,83.6
+5,2,1,0,0,0,0,8,1,45.0,2,367,Web Application,50.9
+5,1,1,0,0,0,0,5,1,47.0,1,329,Web Application,40.8
+8,3,1,1,0,0,0,6,1,35.0,3,862,Mobile Application,80.5
+1,1,0,0,0,1,1,9,1,67.0,3,284,Cloud/DevOps & Infrastructure,55.3
+8,2,0,0,0,0,1,8,0,57.0,2,724,Cloud/DevOps & Infrastructure,66.8
+9,4,0,0,1,0,1,7,1,64.0,5,802,AI/ML & Data,96.4
+7,2,1,0,1,1,0,6,1,70.0,2,263,Cloud/DevOps & Infrastructure,76.3
+3,4,0,0,0,0,0,8,0,57.0,2,458,Cloud/DevOps & Infrastructure,57.6
+8,8,1,1,0,0,0,5,0,57.0,3,490,Mobile Application,81.7
+9,2,1,0,0,1,0,4,0,57.0,1,901,Web Application,69.6
+5,3,1,0,1,0,1,5,1,24.0,3,466,AI/ML & Data,95.8
+8,3,1,0,1,0,0,8,0,57.0,3,350,AI/ML & Data,80.7
+5,1,0,1,1,0,1,3,1,57.0,3,373,Mobile Application,73.9
+7,3,1,0,0,0,0,6,1,70.0,1,572,AI/ML & Data,66.2
+8,1,1,0,1,1,1,10,1,103.0,9,850,AI/ML & Data,111.1
+10,0,1,0,1,0,0,4,1,86.0,4,339,Web Application,59.9
+3,3,0,0,0,1,0,7,1,35.0,4,501,Cloud/DevOps & Infrastructure,59.1
+7,2,1,0,0,0,0,4,0,57.0,4,369,Web Application,53.3
+0,2,1,0,0,0,0,4,1,50.0,1,662,Web Application,43.3
+4,6,1,0,1,1,0,8,1,38.0,2,646,Cloud/DevOps & Infrastructure,95.2
+7,3,1,0,0,0,0,4,1,58.0,3,566,Web Application,57.4
+10,3,1,0,0,0,0,6,0,57.0,0,433,Web Application,55.1
+7,5,0,1,0,0,0,7,1,65.0,0,503,Mobile Application,71.4
+5,3,0,0,0,1,0,1,1,52.0,3,458,Cloud/DevOps & Infrastructure,69.2
+10,0,1,0,0,0,1,5,0,57.0,2,527,Web Application,64.9
+0,1,1,0,0,0,0,4,0,57.0,0,525,Web Application,37.6
+6,3,0,0,1,1,1,7,0,57.0,4,343,AI/ML & Data,82.3
+4,3,0,1,1,0,0,7,0,57.0,7,350,Cloud/DevOps & Infrastructure,74.6
+4,2,0,1,0,0,0,3,1,33.0,3,640,Cloud/DevOps & Infrastructure,57.4
+3,0,1,0,0,0,0,6,0,57.0,5,574,Web Application,49.1
+8,3,1,0,0,0,0,5,0,57.0,4,501,Web Application,62.0
+14,3,1,0,0,0,0,2,1,63.0,4,449,Web Application,62.4
+8,2,1,0,0,0,0,4,1,47.0,4,451,Web Application,67.2
+11,1,1,1,1,1,1,8,0,57.0,3,604,Web Application,108.1
+12,0,1,0,0,0,0,8,0,57.0,3,268,Web Application,54.0
+12,3,0,1,0,0,0,4,1,99.0,4,696,Mobile Application,86.0
+4,2,0,0,1,0,1,8,1,90.0,7,642,AI/ML & Data,101.2
+9,5,0,1,0,0,0,5,0,57.0,3,632,Mobile Application,67.5
+9,2,1,1,1,0,0,6,0,57.0,2,502,Web Application,72.5
+6,1,0,1,1,1,1,2,1,54.0,3,684,Cloud/DevOps & Infrastructure,94.9
+5,3,1,0,0,0,1,8,0,57.0,4,731,AI/ML & Data,84.0
+3,4,1,0,0,0,1,3,0,57.0,6,599,AI/ML & Data,83.7
+7,4,1,0,0,1,0,8,1,75.0,3,321,Web Application,71.3
+2,2,1,1,0,0,0,5,1,79.0,3,299,Web Application,60.5
+3,2,1,0,0,1,0,6,1,73.0,6,720,Cloud/DevOps & Infrastructure,71.8
+16,1,0,1,0,0,0,8,1,11.0,3,671,Mobile Application,91.0
+2,3,1,0,0,0,1,7,1,52.0,1,552,Web Application,55.3
+6,5,0,1,0,0,0,6,0,57.0,4,729,Mobile Application,68.7
+3,0,0,0,1,1,0,11,0,57.0,4,521,AI/ML & Data,78.6
+6,5,0,0,0,0,1,8,0,57.0,5,502,Cloud/DevOps & Infrastructure,78.0
+9,2,1,0,0,0,0,2,1,8.0,2,335,AI/ML & Data,57.0
+2,4,1,0,0,0,0,4,1,77.0,4,355,Cloud/DevOps & Infrastructure,62.8
+12,3,1,0,0,0,0,5,1,98.0,0,302,Web Application,53.8
+7,2,1,1,0,0,1,6,1,78.0,2,523,Mobile Application,63.9
+6,4,0,1,0,0,1,6,1,61.0,3,592,Mobile Application,76.7
+9,2,1,0,0,0,1,4,1,49.0,3,927,Web Application,73.8
+6,0,1,1,0,0,0,6,1,10.0,6,445,Web Application,60.9
+8,2,0,1,1,0,0,5,0,57.0,1,610,Mobile Application,56.8
+7,4,1,0,0,1,0,8,0,57.0,5,384,Cloud/DevOps & Infrastructure,68.0
+9,0,1,1,0,0,0,6,0,57.0,0,408,Mobile Application,65.2
+4,6,1,0,0,1,0,5,1,55.0,5,228,Cloud/DevOps & Infrastructure,62.0
+6,5,0,0,0,1,0,0,1,57.0,2,474,Cloud/DevOps & Infrastructure,80.0
+7,3,1,1,0,0,0,5,0,57.0,5,505,Mobile Application,75.4
+8,3,0,0,1,1,1,4,0,57.0,3,1079,AI/ML & Data,109.6
+7,0,1,0,0,0,1,5,0,57.0,2,778,Web Application,60.8
+6,0,1,0,0,1,1,4,1,26.0,2,219,Web Application,53.3
+1,1,1,0,0,0,0,7,1,77.0,6,497,Cloud/DevOps & Infrastructure,58.4
+4,3,0,0,1,1,1,4,1,102.0,5,552,AI/ML & Data,98.8
+6,0,1,1,0,0,0,2,1,79.0,0,342,Web Application,29.9
+4,3,0,0,0,0,1,2,1,29.0,6,311,Mobile Application,55.6
+8,3,0,1,0,0,0,4,1,70.0,3,609,Mobile Application,66.1
+1,2,0,0,0,1,1,3,0,57.0,5,503,Cloud/DevOps & Infrastructure,78.2
+9,3,0,1,0,0,0,3,1,58.0,4,736,Mobile Application,84.9
+8,3,0,1,0,0,0,1,1,41.0,1,697,Mobile Application,60.7
+6,1,0,1,0,0,0,4,0,57.0,1,315,Mobile Application,52.9
+11,4,0,1,0,1,0,6,0,57.0,2,496,Mobile Application,67.8
+8,1,1,0,1,1,1,6,1,40.0,3,770,AI/ML & Data,107.9
+11,6,0,0,0,1,0,5,1,35.0,3,520,Cloud/DevOps & Infrastructure,100.0
+14,4,0,1,0,0,0,4,1,71.0,3,579,Mobile Application,70.4
+9,0,1,0,0,0,0,4,0,57.0,3,589,Web Application,51.7
+8,2,1,0,0,0,0,2,1,55.0,1,478,Web Application,50.9
+9,3,1,0,1,1,1,9,0,57.0,6,768,AI/ML & Data,110.3
+3,3,0,0,0,1,0,6,1,55.0,0,417,Cloud/DevOps & Infrastructure,61.0
+6,3,1,0,0,0,0,7,0,57.0,2,444,Web Application,63.4
+8,1,1,0,0,0,0,3,1,77.0,3,235,Web Application,57.6
+8,4,0,1,0,0,0,0,1,61.0,4,770,Mobile Application,80.3
+11,1,1,0,0,0,0,4,1,30.0,1,610,Web Application,63.9
+8,2,1,1,0,1,1,7,0,57.0,3,292,Cloud/DevOps & Infrastructure,69.9
+7,2,1,0,1,1,0,4,0,57.0,4,224,Web Application,67.8
+5,1,1,0,0,1,1,4,0,57.0,3,701,Web Application,73.4
+6,1,1,0,0,1,0,3,0,57.0,3,526,Cloud/DevOps & Infrastructure,77.8
+6,3,1,0,0,0,0,6,0,57.0,0,382,Web Application,60.6
+7,1,1,0,0,1,0,9,1,77.0,4,623,Web Application,56.5
+6,0,1,0,0,0,0,6,1,52.0,5,708,Web Application,57.5
+8,2,1,0,0,0,0,8,0,57.0,4,572,Web Application,75.6
+9,3,1,0,0,0,1,9,1,95.0,1,636,Web Application,72.6
+8,3,1,0,0,1,1,5,1,37.0,1,343,Web Application,67.0
+7,3,1,0,0,1,1,1,0,57.0,1,647,Web Application,55.6
+5,3,1,0,0,0,0,4,0,57.0,1,380,Web Application,53.3
+10,2,1,1,0,0,0,7,0,57.0,2,493,Mobile Application,58.2
+5,1,0,0,0,1,1,7,0,57.0,5,562,AI/ML & Data,72.6
+14,3,0,1,0,1,0,4,0,57.0,4,442,Mobile Application,78.8
+9,2,1,0,0,0,1,5,0,57.0,2,496,Web Application,62.7
+5,3,0,1,0,1,0,3,1,74.0,2,707,Mobile Application,74.2
+3,3,0,0,0,1,1,5,1,0.0,4,413,Cloud/DevOps & Infrastructure,81.1
+6,4,0,0,0,1,0,6,0,57.0,1,463,Cloud/DevOps & Infrastructure,60.8
+9,2,1,0,0,0,0,4,0,57.0,1,172,Web Application,58.9
+5,4,1,0,0,1,0,7,0,57.0,0,273,Web Application,54.4
+10,2,1,0,0,0,0,4,1,108.0,3,256,Web Application,59.1
+7,1,1,0,0,0,0,2,1,39.0,2,430,Cloud/DevOps & Infrastructure,64.1
+13,3,0,1,0,0,0,6,1,34.0,1,525,Mobile Application,82.8
+7,1,0,1,0,0,0,6,0,57.0,3,341,Mobile Application,54.9
+14,3,1,0,1,0,0,4,1,31.0,3,290,Web Application,78.7
+9,5,0,1,0,0,1,5,0,57.0,1,513,Mobile Application,63.7
+10,4,1,1,0,1,0,5,0,57.0,4,457,Mobile Application,87.0
+6,4,1,0,0,0,0,7,1,68.0,1,577,Web Application,54.7
+5,2,0,0,0,1,0,10,0,57.0,2,514,Cloud/DevOps & Infrastructure,65.7
+7,0,0,0,0,0,0,5,0,57.0,1,277,Web Application,53.3
+3,4,1,0,0,1,0,5,0,57.0,3,641,Cloud/DevOps & Infrastructure,67.7
+5,2,1,0,0,0,0,5,1,24.0,2,656,Web Application,53.2
+1,3,0,0,0,1,1,7,1,27.0,2,495,Cloud/DevOps & Infrastructure,72.7
+0,5,1,0,0,1,0,6,1,40.0,2,599,Cloud/DevOps & Infrastructure,63.0
+2,4,0,0,1,1,0,4,0,57.0,4,416,Cloud/DevOps & Infrastructure,80.9
+6,3,1,0,1,1,0,10,0,57.0,4,516,Cloud/DevOps & Infrastructure,92.0
+9,3,0,0,1,0,0,10,1,75.0,4,744,AI/ML & Data,109.6
+8,4,0,1,0,0,1,7,1,95.0,2,600,Mobile Application,88.5
+4,4,0,0,1,1,1,4,1,120.0,4,670,AI/ML & Data,96.2
+10,1,1,0,0,0,0,5,0,57.0,2,627,Web Application,75.8
+4,2,0,1,1,1,0,3,0,57.0,3,370,Mobile Application,43.0
+9,3,0,1,0,0,1,3,0,57.0,2,435,Mobile Application,70.8
+5,1,0,0,0,1,0,6,1,11.0,2,308,Cloud/DevOps & Infrastructure,58.8
+15,2,0,1,0,0,0,0,0,57.0,2,634,Mobile Application,78.9
+14,3,0,0,0,1,0,4,1,39.0,2,453,Mobile Application,70.5
+7,3,0,1,0,0,0,6,1,92.0,4,536,Mobile Application,66.9
+9,2,1,0,0,0,0,3,0,57.0,3,564,Web Application,57.5
+9,2,1,0,0,0,0,0,0,57.0,1,492,Web Application,54.7
+9,3,0,1,0,0,1,9,0,57.0,0,492,Mobile Application,67.5
+9,3,1,1,0,0,1,5,1,23.0,3,663,Mobile Application,67.1
+6,2,1,0,0,0,0,7,0,57.0,1,418,Web Application,52.1
+12,1,0,1,0,0,0,8,0,57.0,3,152,Mobile Application,58.9
+9,2,0,1,0,0,0,7,1,62.0,1,597,Mobile Application,52.2
+10,2,1,0,0,0,0,7,1,85.0,1,553,Web Application,57.0
+8,1,0,1,0,0,0,9,1,58.0,2,465,Mobile Application,59.7
+7,3,0,0,1,1,1,4,0,57.0,4,516,AI/ML & Data,111.2
+2,0,1,0,0,0,0,1,0,57.0,0,378,Web Application,23.2
+2,0,0,0,0,1,1,3,1,87.0,3,580,Cloud/DevOps & Infrastructure,69.7
+4,5,0,0,1,1,0,2,1,53.0,2,371,Cloud/DevOps & Infrastructure,66.4
+8,6,0,1,0,0,0,5,1,19.0,1,577,Mobile Application,62.8
+6,2,1,0,0,0,0,4,1,50.0,2,566,Web Application,56.9
+6,2,0,1,0,0,0,5,0,57.0,3,738,Mobile Application,67.5
+8,4,0,0,0,1,0,4,0,57.0,3,436,Cloud/DevOps & Infrastructure,72.4
+7,3,1,0,1,1,0,9,1,66.0,4,816,AI/ML & Data,90.9
+7,1,0,0,0,1,0,10,1,40.0,4,392,Cloud/DevOps & Infrastructure,72.0
+7,3,0,1,0,1,0,9,1,59.0,5,603,Mobile Application,82.4
+9,0,0,1,0,0,0,6,1,79.0,1,450,Mobile Application,58.7
+9,2,1,0,0,0,0,2,1,47.0,3,89,Web Application,47.5
+2,5,0,0,1,0,1,3,1,68.0,5,728,AI/ML & Data,91.2
+11,2,1,0,0,0,1,7,0,57.0,2,366,Web Application,62.1
+8,1,0,0,1,1,1,8,1,18.0,6,396,AI/ML & Data,110.2
+3,5,1,1,0,1,0,5,1,0.0,2,386,AI/ML & Data,68.7
+8,3,1,0,1,0,0,2,1,10.0,3,384,Web Application,58.1
+12,1,1,1,0,0,0,5,0,57.0,4,613,Mobile Application,73.5
+8,2,1,0,1,0,0,3,0,57.0,3,354,Web Application,62.2
+6,2,0,0,1,0,1,12,1,61.0,4,898,AI/ML & Data,100.1
+7,3,1,0,0,0,1,8,1,17.0,1,390,Web Application,74.6
+8,7,0,0,0,1,1,4,1,108.0,2,318,Cloud/DevOps & Infrastructure,94.6
+10,2,1,1,0,0,0,5,0,57.0,2,619,Web Application,76.6
+1,2,0,0,1,1,0,6,1,74.0,3,672,Cloud/DevOps & Infrastructure,84.7
+4,2,1,0,0,1,0,7,0,57.0,4,363,Cloud/DevOps & Infrastructure,70.2
+14,2,0,1,1,0,0,5,0,57.0,1,794,Mobile Application,84.9
+5,0,0,0,1,1,1,7,0,57.0,2,973,AI/ML & Data,95.9
+9,2,0,0,1,1,1,6,0,57.0,3,1062,AI/ML & Data,108.4
+5,8,1,0,0,1,0,3,1,60.0,4,542,Cloud/DevOps & Infrastructure,87.7
+11,2,1,0,1,0,0,3,1,68.0,1,467,Web Application,64.8
+8,1,0,1,0,0,0,6,1,47.0,4,468,Mobile Application,66.6
+2,4,1,1,0,0,0,6,1,61.0,4,558,Web Application,53.6
+7,3,0,1,0,0,0,3,1,54.0,3,440,Mobile Application,70.2
+7,3,1,0,0,0,1,6,0,57.0,1,485,Web Application,71.7
+5,3,1,1,0,0,0,6,1,76.0,4,625,Mobile Application,57.1
+12,2,0,0,0,0,0,6,1,64.0,2,273,Mobile Application,61.3
+10,4,0,1,0,1,0,3,0,57.0,1,689,Mobile Application,93.4
+7,3,1,0,0,0,0,6,1,36.0,3,435,Mobile Application,71.2
+9,1,0,0,1,0,1,4,0,57.0,5,615,AI/ML & Data,95.3
+2,2,0,0,1,0,1,5,0,57.0,5,976,AI/ML & Data,108.8
+14,5,1,1,0,1,0,3,1,69.0,4,684,Mobile Application,102.4
+5,5,0,1,0,1,0,6,1,69.0,2,465,Mobile Application,77.7
+4,3,0,1,1,1,0,5,0,57.0,4,739,Cloud/DevOps & Infrastructure,81.9
+10,2,1,0,0,0,0,5,0,57.0,1,511,Web Application,66.9
+12,1,1,0,0,1,0,4,0,57.0,3,729,Web Application,83.3
+3,1,0,0,0,1,0,6,1,95.0,3,566,Mobile Application,40.6
+10,0,0,0,1,0,0,7,1,83.0,2,751,AI/ML & Data,99.3
+8,1,0,1,0,0,0,7,1,59.0,1,523,Mobile Application,64.6
+8,1,1,0,1,0,1,10,1,42.0,3,515,AI/ML & Data,88.1
+10,1,1,1,1,0,1,3,1,65.0,4,909,AI/ML & Data,100.1
+12,3,1,0,0,0,0,7,1,28.0,3,476,Web Application,67.0
+4,2,0,0,0,1,0,7,1,28.0,3,490,Cloud/DevOps & Infrastructure,60.4
+11,4,0,1,1,1,1,9,0,57.0,8,509,AI/ML & Data,107.1
+9,1,1,0,0,1,0,6,0,57.0,3,385,Web Application,58.0
+5,3,1,1,0,0,0,6,1,14.0,3,552,Mobile Application,57.1
+10,3,1,0,0,0,0,3,1,18.0,3,476,Web Application,68.2
+8,2,1,0,0,0,0,3,1,77.0,1,169,Web Application,39.6
+13,3,1,0,0,0,0,6,1,55.0,0,608,Web Application,72.5
+2,6,1,0,0,1,1,12,1,37.0,4,251,Cloud/DevOps & Infrastructure,78.7
+4,4,1,1,0,0,0,7,0,57.0,2,611,Mobile Application,58.6
+7,3,0,1,0,0,0,4,1,30.0,4,522,Mobile Application,67.1
+5,3,0,0,0,1,1,6,0,57.0,8,918,Cloud/DevOps & Infrastructure,106.9
+10,4,0,1,0,0,0,4,0,57.0,1,768,Mobile Application,81.0
+5,4,1,0,0,1,1,2,0,57.0,3,634,Cloud/DevOps & Infrastructure,84.4
+12,0,0,0,1,1,1,9,0,57.0,4,180,AI/ML & Data,97.8
+14,5,1,1,0,0,0,1,1,12.0,0,423,Mobile Application,76.5
+3,3,0,1,0,0,0,5,1,67.0,3,607,Mobile Application,57.4
+6,2,0,0,0,1,0,7,0,57.0,4,404,Cloud/DevOps & Infrastructure,68.3
+13,2,0,0,1,0,1,5,1,106.0,3,303,AI/ML & Data,106.9
+7,7,1,0,0,1,0,7,0,57.0,3,358,Cloud/DevOps & Infrastructure,68.0
+11,3,1,0,0,0,0,5,1,0.0,1,630,Web Application,69.5
+6,3,0,0,1,1,1,8,0,57.0,4,927,Cloud/DevOps & Infrastructure,97.1
+9,5,0,1,0,0,0,5,0,57.0,2,271,Mobile Application,70.7
+10,3,1,0,0,1,0,7,1,38.0,0,275,Web Application,61.0
+6,3,1,1,1,0,0,6,1,77.0,0,912,Mobile Application,69.8
+7,4,0,1,1,0,1,8,0,57.0,4,872,AI/ML & Data,123.3
+3,0,1,0,0,0,0,4,0,57.0,2,765,Web Application,53.0
+12,2,0,1,0,0,0,6,1,37.0,6,581,Mobile Application,80.5
+3,3,0,0,0,1,1,5,0,57.0,2,734,Cloud/DevOps & Infrastructure,79.3
+9,2,1,0,0,1,0,4,0,57.0,0,522,Web Application,61.0
+6,3,0,1,0,1,0,5,1,1.0,1,524,Mobile Application,73.7
+10,5,1,1,0,1,0,6,1,77.0,4,767,Mobile Application,87.5
+10,2,0,0,0,0,0,7,0,57.0,4,680,Web Application,77.2
+4,5,0,0,0,1,1,7,1,133.0,7,477,Cloud/DevOps & Infrastructure,86.2
+10,4,0,0,1,1,0,6,0,57.0,4,638,AI/ML & Data,112.0
+13,5,1,0,0,0,1,7,1,77.0,2,467,Web Application,90.6
+5,3,0,0,1,1,0,10,1,34.0,3,458,Cloud/DevOps & Infrastructure,84.9
+6,3,0,0,1,1,1,6,1,53.0,4,406,Cloud/DevOps & Infrastructure,99.1
+10,2,1,0,0,0,1,6,0,57.0,1,463,Web Application,62.6
+0,0,0,0,0,1,1,8,1,5.0,0,634,Cloud/DevOps & Infrastructure,64.4
+6,3,1,1,0,0,0,5,1,83.0,2,363,Web Application,42.0
+8,2,0,0,0,0,1,6,1,73.0,4,679,Cloud/DevOps & Infrastructure,79.4
+5,0,1,0,1,1,1,5,1,81.0,7,609,AI/ML & Data,74.8
+10,3,1,0,1,1,1,6,1,67.0,3,356,AI/ML & Data,113.0
+0,3,1,0,0,0,0,3,0,57.0,0,472,Web Application,45.2
+8,0,1,0,1,1,0,9,0,57.0,3,436,Cloud/DevOps & Infrastructure,63.0
+6,3,1,0,0,0,0,1,1,103.0,3,743,Web Application,65.8
+14,2,1,0,0,0,1,2,0,57.0,0,616,Web Application,71.0
+4,5,1,0,1,0,0,5,1,28.0,3,419,Web Application,63.7
+8,5,1,1,1,1,1,8,1,25.0,6,794,AI/ML & Data,107.1
+14,1,1,0,0,1,0,9,1,0.0,0,378,Web Application,69.2
+3,3,1,0,1,1,0,3,0,57.0,3,372,AI/ML & Data,77.6
+5,2,1,0,0,0,1,11,0,57.0,5,685,AI/ML & Data,82.1
+6,3,1,0,0,0,1,8,1,46.0,0,331,Web Application,50.4
+10,3,1,0,0,1,1,8,0,57.0,2,479,Web Application,74.4
+8,4,1,0,0,0,0,8,1,59.0,3,794,Web Application,77.4
+8,2,0,1,0,0,0,3,1,113.0,1,519,Mobile Application,78.0
+5,2,0,0,0,0,1,10,0,57.0,4,550,Cloud/DevOps & Infrastructure,48.7
+13,2,1,0,0,0,1,3,0,57.0,2,109,Web Application,53.9
+6,3,0,0,0,1,0,10,0,57.0,3,424,Cloud/DevOps & Infrastructure,79.1
+11,3,1,0,0,0,0,4,0,57.0,2,724,Web Application,63.1
+8,2,0,0,1,1,0,4,1,66.0,6,599,Cloud/DevOps & Infrastructure,95.5
+4,3,1,0,0,1,0,8,0,57.0,4,405,Cloud/DevOps & Infrastructure,69.6
+12,2,0,0,1,0,1,6,1,29.0,4,387,AI/ML & Data,93.1
+4,2,1,1,1,1,1,12,0,57.0,5,596,AI/ML & Data,100.4
+2,1,0,0,0,1,1,5,0,57.0,4,402,Cloud/DevOps & Infrastructure,60.0
+9,0,1,1,0,0,1,6,1,56.0,7,482,Web Application,71.3
+5,2,1,0,0,0,0,2,0,57.0,4,357,Web Application,52.7
+2,0,1,0,0,0,0,5,0,57.0,3,416,Web Application,54.0
+15,0,0,1,0,0,0,4,0,57.0,4,333,Mobile Application,74.2
+7,2,1,1,1,1,1,5,1,52.0,6,376,AI/ML & Data,97.9
+10,5,0,1,0,0,0,5,0,57.0,2,282,Mobile Application,56.2
+3,4,0,0,0,1,0,4,0,57.0,2,628,Cloud/DevOps & Infrastructure,74.8
+6,4,1,0,0,1,0,5,0,57.0,3,610,Web Application,77.7
+5,2,1,0,0,1,1,11,0,57.0,2,462,AI/ML & Data,94.1
+3,3,1,1,0,0,0,6,0,57.0,2,441,Web Application,42.6
+6,3,1,0,0,0,0,5,0,57.0,0,558,Web Application,54.4
+10,1,1,0,1,1,0,7,1,85.0,2,614,AI/ML & Data,91.3
+2,2,0,0,0,1,0,2,0,57.0,2,654,Cloud/DevOps & Infrastructure,64.5
+9,5,0,1,1,0,0,7,1,52.0,1,736,Mobile Application,75.7
+11,3,1,1,0,0,1,8,0,57.0,3,525,Web Application,81.2
+13,4,0,1,0,0,1,6,1,59.0,2,600,Mobile Application,77.1
+7,3,1,0,0,0,0,5,0,57.0,0,601,Web Application,58.3
+1,1,1,0,0,1,1,6,0,57.0,0,368,Cloud/DevOps & Infrastructure,54.7
+7,2,0,0,1,0,1,5,0,57.0,3,852,AI/ML & Data,92.8
+9,5,1,0,0,0,0,8,0,57.0,4,920,Web Application,84.2
+6,1,1,0,0,1,0,6,0,57.0,2,211,Web Application,39.9
+11,3,1,0,0,0,0,5,1,71.0,4,638,Web Application,81.2
+9,1,1,0,0,1,0,3,0,57.0,3,402,Cloud/DevOps & Infrastructure,59.8
+14,0,1,1,0,0,0,3,0,57.0,3,387,Mobile Application,65.4
+7,2,1,0,1,1,1,3,1,98.0,5,560,AI/ML & Data,104.0
+13,1,1,0,1,0,0,4,1,7.0,2,638,Mobile Application,66.8
+8,4,0,1,0,1,0,6,0,57.0,2,556,Mobile Application,77.6
+8,1,1,1,0,0,0,8,1,79.0,3,454,Web Application,57.3
+0,1,0,0,0,1,0,6,1,77.0,4,703,Cloud/DevOps & Infrastructure,64.2
+15,3,1,0,0,0,0,4,1,52.0,2,576,Web Application,69.7
+8,3,0,1,0,0,0,5,1,77.0,4,655,Mobile Application,69.1
+4,0,1,0,1,0,1,9,0,57.0,4,483,AI/ML & Data,71.1
+15,7,1,1,0,1,0,0,0,57.0,2,442,Mobile Application,90.2
+2,0,1,0,0,0,0,11,0,57.0,2,429,Cloud/DevOps & Infrastructure,47.0
+7,0,1,0,0,0,0,7,1,115.0,0,724,Web Application,50.1
+8,3,0,1,0,0,0,7,1,20.0,1,810,Mobile Application,82.5
+13,2,1,1,1,0,0,5,1,26.0,1,401,AI/ML & Data,72.4
+5,4,0,1,0,0,0,0,1,115.0,4,518,Mobile Application,51.5
+13,3,1,0,0,0,0,4,0,57.0,0,295,Cloud/DevOps & Infrastructure,73.6
+7,3,1,0,0,0,0,5,0,57.0,1,604,Web Application,57.5
+13,4,1,0,0,0,0,7,0,57.0,1,455,AI/ML & Data,80.1
+10,5,1,0,1,0,0,5,1,92.0,2,325,Web Application,66.8
+14,2,0,1,0,1,0,3,0,57.0,0,453,Mobile Application,63.6
+7,6,1,1,0,1,0,4,1,106.0,3,315,Mobile Application,70.6
+7,4,0,1,0,1,0,4,0,57.0,3,481,Mobile Application,73.1
+7,3,0,1,1,1,1,3,1,68.0,6,709,Mobile Application,100.7
+12,1,0,1,0,0,0,6,0,57.0,3,602,Mobile Application,66.5
+7,3,0,1,0,0,0,4,1,98.0,0,41,Web Application,55.8
+9,1,1,1,0,0,0,8,0,57.0,6,622,Mobile Application,70.1
+8,0,1,0,0,0,0,7,1,54.0,2,674,Web Application,54.8
+3,2,0,0,0,0,1,7,1,65.0,1,466,Web Application,49.2
+12,3,1,1,0,0,0,3,1,29.0,3,369,Mobile Application,59.3
+6,3,0,1,0,0,0,5,0,57.0,6,645,Mobile Application,65.5
+7,0,1,0,0,0,0,8,0,57.0,0,470,Web Application,55.4
+5,4,0,1,1,0,1,5,0,57.0,3,766,Mobile Application,77.3
+7,4,0,1,0,0,0,5,1,83.0,4,843,Mobile Application,86.5
+7,2,1,0,1,1,1,9,0,57.0,3,612,Mobile Application,78.5
+5,7,0,1,0,0,0,7,1,25.0,3,764,Mobile Application,74.0
+12,2,0,0,1,0,1,6,0,57.0,2,432,AI/ML & Data,98.5
+7,2,1,0,0,0,1,6,1,29.0,4,453,Web Application,62.3
+9,0,1,0,0,1,1,3,1,16.0,4,615,Mobile Application,84.6
+7,3,0,1,0,0,0,5,0,57.0,4,460,Mobile Application,71.4
+8,6,1,0,0,0,0,5,1,24.0,2,481,Mobile Application,76.5
+15,2,1,1,0,0,0,5,1,68.0,3,659,Mobile Application,87.7
+17,2,1,0,0,1,0,8,1,39.0,3,709,Mobile Application,95.3
+10,3,0,1,0,0,0,7,0,57.0,2,557,Mobile Application,79.1
+10,2,0,0,1,1,0,9,0,57.0,6,633,AI/ML & Data,98.1
+4,4,1,0,0,0,0,9,0,57.0,1,443,Cloud/DevOps & Infrastructure,61.2
+5,4,0,0,0,1,1,7,1,31.0,5,534,Cloud/DevOps & Infrastructure,90.1
+8,1,0,1,0,1,0,6,0,57.0,3,303,Mobile Application,66.3
+9,3,0,1,0,0,1,5,0,57.0,2,497,Mobile Application,90.7
+4,4,1,0,1,0,1,6,1,77.0,4,972,AI/ML & Data,107.4
+11,2,1,0,0,0,0,6,1,57.0,2,312,Web Application,60.8
+2,6,0,0,0,1,0,6,1,45.0,3,399,Cloud/DevOps & Infrastructure,84.4
+10,2,0,1,0,0,1,6,1,41.0,3,640,Mobile Application,80.0
+6,4,1,0,0,0,0,4,0,57.0,2,348,Mobile Application,62.4
+12,3,1,0,0,0,0,4,1,26.0,2,455,Web Application,67.6
+3,4,1,0,0,1,0,6,1,36.0,5,423,Cloud/DevOps & Infrastructure,73.3
+5,1,0,0,0,0,0,6,0,57.0,4,750,Web Application,57.8
+5,3,1,1,0,1,0,2,1,45.0,3,636,Web Application,57.0
+6,4,1,0,0,1,0,3,1,94.0,2,677,Web Application,65.0
+14,3,1,0,0,0,0,6,1,74.0,3,281,Web Application,59.7
+7,4,1,1,0,0,0,5,1,48.0,0,582,Web Application,71.6
+4,3,1,0,1,0,1,6,0,57.0,4,660,AI/ML & Data,91.5
+9,0,1,0,0,0,1,4,1,109.0,2,372,Web Application,55.8
+4,0,0,1,0,1,1,3,1,100.0,6,575,AI/ML & Data,83.8
+4,7,0,0,0,1,0,6,0,57.0,6,705,Cloud/DevOps & Infrastructure,80.6
+11,0,1,1,0,0,0,8,1,79.0,2,630,Mobile Application,76.4
+7,0,1,0,0,0,0,6,1,46.0,1,439,Web Application,57.8
+11,4,1,1,0,0,0,2,0,57.0,1,519,Mobile Application,65.9
+8,1,1,1,0,0,0,7,1,66.0,2,604,Web Application,45.8
+9,4,1,0,0,1,1,7,1,66.0,1,553,Mobile Application,91.1
+0,3,0,0,0,0,0,8,0,57.0,2,379,Cloud/DevOps & Infrastructure,60.5
+6,3,0,0,0,1,0,7,0,57.0,4,481,Cloud/DevOps & Infrastructure,63.3
+11,4,0,0,1,0,1,5,0,57.0,0,866,AI/ML & Data,105.0
+8,3,1,1,0,0,1,5,0,57.0,4,670,Mobile Application,70.4
+11,2,0,0,1,1,1,5,0,57.0,4,720,AI/ML & Data,107.0
+10,3,1,0,1,1,1,9,1,41.0,5,725,AI/ML & Data,105.5
+12,3,0,1,0,1,0,5,0,57.0,0,491,Mobile Application,77.6
+5,0,0,1,0,0,0,3,0,57.0,5,509,Mobile Application,58.4
+6,2,1,0,0,0,0,4,1,38.0,0,380,Web Application,42.2
+10,2,1,0,0,0,0,6,0,57.0,0,104,Web Application,53.1
+11,6,0,1,0,1,0,4,1,107.0,2,325,Mobile Application,83.7
+7,1,1,0,0,1,0,4,0,57.0,0,739,Web Application,63.3
+10,3,1,0,0,1,0,5,1,46.0,2,730,Web Application,77.2
+3,3,1,0,0,1,0,9,0,57.0,4,60,Cloud/DevOps & Infrastructure,66.2
+8,3,0,0,0,1,0,9,1,6.0,5,550,Cloud/DevOps & Infrastructure,90.3
+12,3,0,1,0,1,0,4,1,60.0,2,355,Mobile Application,66.5
+4,4,0,0,0,1,0,6,1,59.0,1,727,Cloud/DevOps & Infrastructure,73.6
+7,3,1,0,0,1,0,9,1,55.0,5,410,Cloud/DevOps & Infrastructure,79.4
+11,0,1,0,0,0,0,4,0,57.0,1,644,Web Application,58.8
+5,2,0,1,0,1,0,6,1,101.0,4,220,Web Application,59.3
+7,1,0,1,0,0,0,4,1,36.0,3,585,Mobile Application,68.5
+11,5,1,0,0,0,0,5,0,57.0,4,655,Web Application,71.6
+6,1,1,0,1,0,1,6,1,4.0,6,626,AI/ML & Data,85.9
+8,1,1,1,0,0,0,6,1,42.0,4,692,Mobile Application,76.2
+9,2,0,1,0,0,1,9,1,33.0,1,465,Mobile Application,61.5
+11,2,1,0,0,0,1,2,0,57.0,0,526,Web Application,68.7
+5,2,1,0,0,0,1,5,0,57.0,1,355,Web Application,63.7
+6,0,1,0,0,1,0,7,1,86.0,0,416,AI/ML & Data,65.1
+2,2,1,0,0,0,0,6,1,67.0,2,579,Web Application,43.8
+8,3,1,0,1,0,0,2,1,97.0,2,491,Web Application,63.4
+8,2,1,0,0,0,1,6,1,53.0,2,472,Web Application,51.9
+4,3,0,1,0,0,0,4,0,57.0,4,370,Mobile Application,53.5
+12,3,0,1,0,1,0,2,1,22.0,0,679,Mobile Application,81.8
+7,0,0,1,0,0,0,6,0,57.0,1,620,Mobile Application,67.6
+10,2,1,0,0,0,0,7,0,57.0,1,810,Web Application,82.7
+9,2,1,0,0,0,0,5,1,37.0,0,471,Web Application,63.0
+8,7,0,0,0,1,0,2,0,57.0,3,339,Cloud/DevOps & Infrastructure,85.6
+8,1,0,1,0,0,0,5,0,57.0,2,432,Mobile Application,65.5
+11,2,0,1,0,1,0,6,1,43.0,1,664,Mobile Application,82.4
+3,3,1,0,0,0,1,7,0,57.0,4,573,AI/ML & Data,74.6
+5,4,0,0,1,1,1,10,0,57.0,3,501,AI/ML & Data,102.5
+8,0,1,0,0,0,0,3,1,64.0,1,399,Web Application,53.5
+4,3,0,1,0,0,0,3,1,44.0,0,810,Mobile Application,47.8
+11,4,0,1,0,0,0,5,0,57.0,3,662,Cloud/DevOps & Infrastructure,79.1
+4,4,1,0,0,0,0,5,1,10.0,2,441,Web Application,52.9
+2,6,0,0,0,1,0,4,0,57.0,3,544,Cloud/DevOps & Infrastructure,68.4
+9,6,1,1,0,0,0,4,1,28.0,4,623,Mobile Application,81.4
+7,2,0,0,1,1,1,7,0,57.0,3,1181,AI/ML & Data,97.4
+6,5,0,0,0,1,0,9,0,57.0,3,479,Cloud/DevOps & Infrastructure,63.5
+9,1,0,1,0,0,0,3,1,94.0,4,638,Mobile Application,79.9
+7,5,1,0,0,1,0,8,1,76.0,4,470,Cloud/DevOps & Infrastructure,83.9
+10,5,0,1,0,1,0,4,0,57.0,3,663,Mobile Application,67.7
+6,5,1,0,0,1,0,7,1,63.0,4,403,Cloud/DevOps & Infrastructure,73.3
+5,4,1,0,0,0,0,6,0,57.0,2,405,Web Application,58.5
+10,6,0,1,0,0,0,3,1,79.0,2,762,Mobile Application,101.1
+12,4,0,1,0,0,0,6,1,181.0,2,732,Mobile Application,84.8
+13,4,1,0,0,0,0,5,1,59.0,0,701,Web Application,58.6
+7,2,0,1,0,0,0,6,1,27.0,2,631,Mobile Application,52.4
+1,5,0,1,0,1,0,9,0,57.0,5,347,Cloud/DevOps & Infrastructure,63.2
+11,4,0,1,0,1,0,8,0,57.0,3,709,Mobile Application,88.3
+10,3,1,0,0,0,1,5,1,70.0,1,665,Web Application,61.2
+13,0,1,1,0,1,1,6,0,57.0,5,662,Web Application,78.9
+8,3,1,1,0,0,0,3,1,54.0,1,476,Web Application,72.6
+13,1,1,1,0,1,0,6,0,57.0,2,590,Web Application,85.4
+2,3,0,0,0,1,0,7,0,57.0,0,525,Cloud/DevOps & Infrastructure,56.0
+9,3,0,1,0,0,0,6,0,57.0,1,357,Mobile Application,65.6
+5,4,1,0,1,0,0,7,0,57.0,1,586,Web Application,54.4
+9,3,0,1,1,0,0,4,0,57.0,3,612,Mobile Application,80.0
+9,1,1,0,0,0,1,8,1,55.0,2,400,Web Application,54.5
+9,0,0,0,0,0,0,6,0,57.0,2,519,Web Application,54.9
+8,7,0,0,1,0,1,9,1,30.0,7,589,AI/ML & Data,108.7
+11,4,1,1,0,0,0,3,0,57.0,4,452,Mobile Application,78.6
+5,3,0,0,0,1,0,5,1,42.0,3,617,Cloud/DevOps & Infrastructure,78.9
+9,1,0,1,0,0,0,5,1,42.0,4,429,Mobile Application,66.9
+3,4,1,1,0,0,0,4,1,67.0,3,517,Mobile Application,54.0
+7,4,0,0,1,1,0,7,1,94.0,1,951,AI/ML & Data,101.9
+3,0,0,0,0,1,0,7,0,57.0,3,576,Cloud/DevOps & Infrastructure,52.3
+7,1,1,0,1,1,0,6,1,67.0,6,547,AI/ML & Data,93.9
+5,5,0,0,0,0,0,6,1,46.0,5,181,Cloud/DevOps & Infrastructure,67.8
+8,3,0,0,1,1,1,11,0,57.0,5,916,AI/ML & Data,107.8
+6,1,0,0,0,1,0,8,1,48.0,3,624,Mobile Application,76.3
+10,3,1,0,0,1,1,3,0,57.0,1,598,Web Application,71.5
+8,4,1,0,1,1,1,7,0,57.0,6,659,AI/ML & Data,110.6
+10,4,1,1,0,0,0,6,1,57.0,1,697,Mobile Application,65.5
+11,1,1,1,0,0,0,9,0,57.0,4,474,Mobile Application,59.5
+8,2,0,0,1,0,0,7,1,81.0,2,600,AI/ML & Data,92.2
+6,6,0,0,1,1,0,7,0,57.0,1,480,Cloud/DevOps & Infrastructure,102.3
+5,5,1,0,0,1,1,6,0,57.0,3,350,Cloud/DevOps & Infrastructure,63.5
+11,5,1,0,0,1,0,8,1,66.0,3,505,Web Application,71.9
+6,1,1,0,1,0,1,6,1,88.0,4,527,AI/ML & Data,71.6
+7,2,0,0,1,0,0,11,1,134.0,4,639,AI/ML & Data,87.8
+6,2,1,0,0,0,0,9,1,86.0,4,546,Web Application,50.8
+8,4,1,0,0,0,0,5,0,57.0,2,454,Web Application,69.0
+11,3,1,1,0,0,0,4,1,33.0,2,319,Web Application,62.7
+4,0,0,0,1,1,0,8,0,57.0,1,656,AI/ML & Data,93.9
+13,4,1,1,0,0,0,4,0,57.0,4,213,Mobile Application,67.6
+6,3,0,0,0,1,1,5,1,43.0,4,574,Cloud/DevOps & Infrastructure,80.3
+16,2,0,0,0,0,0,4,1,50.0,2,564,Mobile Application,77.0
+7,1,0,0,0,1,0,8,1,54.0,2,272,Mobile Application,75.7
+10,4,0,1,0,0,0,6,1,112.0,1,682,Mobile Application,68.5
+6,2,0,0,1,1,1,11,0,57.0,5,403,AI/ML & Data,84.8
+9,2,1,0,0,1,0,6,1,53.0,3,109,Web Application,63.0
+12,3,0,1,0,1,0,5,0,57.0,0,501,Mobile Application,64.3
+6,1,0,1,0,1,0,5,1,32.0,3,539,Cloud/DevOps & Infrastructure,67.2
+8,1,0,0,0,0,1,3,1,96.0,1,451,Cloud/DevOps & Infrastructure,61.6
+4,5,0,0,0,1,0,6,0,57.0,2,635,Cloud/DevOps & Infrastructure,71.7
+7,3,1,0,0,0,0,6,1,70.0,4,401,Web Application,49.6
+6,4,0,1,0,1,0,8,0,57.0,2,633,Mobile Application,75.9
+9,2,1,0,0,0,0,1,0,57.0,0,500,Web Application,72.0
+6,4,1,0,0,0,0,5,0,57.0,4,397,Web Application,71.0
+10,2,1,1,0,0,1,3,0,57.0,1,305,AI/ML & Data,84.5
+0,2,0,1,1,0,1,8,1,19.0,8,987,AI/ML & Data,90.9
+11,4,0,0,1,1,1,8,0,57.0,4,803,AI/ML & Data,121.4
+6,4,0,0,0,1,0,5,1,76.0,7,513,Cloud/DevOps & Infrastructure,96.6
+8,2,0,0,1,1,1,7,1,66.0,6,423,AI/ML & Data,105.5
+2,0,0,1,1,1,0,6,0,57.0,3,224,Cloud/DevOps & Infrastructure,65.8
+8,0,1,0,0,0,0,6,0,57.0,4,685,Web Application,62.8
+7,0,1,0,0,0,0,8,0,57.0,3,443,Web Application,41.8
+13,5,0,1,0,0,1,1,1,29.0,3,532,Mobile Application,87.1
+2,6,0,0,0,1,0,7,1,44.0,7,426,Cloud/DevOps & Infrastructure,92.7
+12,3,1,0,0,0,0,8,0,57.0,2,371,Web Application,81.4
+3,2,0,1,0,0,0,1,0,57.0,4,318,Mobile Application,42.5
+4,3,0,0,1,0,1,9,0,57.0,6,712,AI/ML & Data,85.6
+4,1,1,0,0,1,0,4,0,57.0,4,658,Web Application,46.7
+14,2,0,1,0,0,0,9,0,57.0,0,495,Mobile Application,66.8
+1,0,0,0,0,1,0,9,1,54.0,3,257,Cloud/DevOps & Infrastructure,55.4
+8,1,0,0,1,0,0,8,1,25.0,2,636,AI/ML & Data,76.7
+9,0,1,0,0,0,0,5,1,40.0,3,693,Web Application,41.6
+5,5,1,0,0,1,1,2,0,57.0,1,666,Cloud/DevOps & Infrastructure,82.1
+9,1,1,1,1,0,0,0,0,57.0,0,733,Web Application,58.1
+3,2,1,0,0,1,0,7,1,73.0,4,770,Cloud/DevOps & Infrastructure,82.0
+8,5,1,0,0,0,0,8,1,113.0,4,615,Web Application,58.7
+7,3,1,1,0,0,0,5,1,73.0,4,1065,Mobile Application,71.5
+15,2,0,1,0,0,0,5,0,57.0,3,684,Mobile Application,90.4
+3,1,1,0,1,0,0,7,0,57.0,0,574,Web Application,60.9
+3,3,0,0,1,1,0,5,0,57.0,7,391,Cloud/DevOps & Infrastructure,83.0
+11,0,1,0,0,0,0,4,1,92.0,0,460,Web Application,50.4
+9,3,1,0,0,0,0,2,1,76.0,2,482,Web Application,68.0
+9,2,1,0,1,1,0,3,0,57.0,3,204,Web Application,63.6
+10,3,0,0,1,1,1,5,0,57.0,4,777,Mobile Application,101.9
+7,0,1,0,0,1,0,7,0,57.0,5,539,Cloud/DevOps & Infrastructure,68.5
+6,4,0,0,0,1,1,7,0,57.0,4,702,Mobile Application,80.8
+9,1,0,0,0,0,1,4,1,28.0,4,638,Web Application,65.3
+8,5,0,1,0,1,0,2,0,57.0,2,707,Mobile Application,92.6
+6,0,1,0,0,0,0,2,1,51.0,2,220,Web Application,32.1
+6,3,0,1,0,0,0,9,1,32.0,2,507,AI/ML & Data,70.6
+1,7,0,0,1,1,0,2,0,57.0,6,472,Mobile Application,82.7
+3,1,1,0,1,1,1,4,0,57.0,4,736,AI/ML & Data,92.6
+9,3,1,1,0,0,0,4,0,57.0,3,268,Mobile Application,69.8
+13,2,0,1,0,1,0,6,1,22.0,4,411,Mobile Application,78.1
+1,7,1,0,0,1,0,2,1,26.0,0,441,Cloud/DevOps & Infrastructure,68.8
+8,2,0,1,0,0,0,2,0,57.0,2,360,Mobile Application,48.8
+10,2,0,0,0,0,0,4,1,11.0,2,248,Web Application,47.0
+6,4,0,1,0,1,0,5,0,57.0,2,556,Mobile Application,69.9
+7,3,1,1,0,0,1,5,0,57.0,1,414,Web Application,64.0
+13,3,1,0,0,0,1,6,0,57.0,0,524,Web Application,66.0
+5,1,1,0,0,0,1,6,0,57.0,0,525,Web Application,49.3
+7,5,0,1,0,1,0,6,0,57.0,2,572,Mobile Application,67.3
+7,7,0,1,0,1,0,4,1,83.0,0,310,AI/ML & Data,83.0
+11,3,1,0,0,0,0,4,1,68.0,2,797,Web Application,78.2
+7,4,0,1,0,1,0,5,1,14.0,2,952,Mobile Application,88.3
+9,1,0,0,0,1,0,8,1,20.0,3,548,Cloud/DevOps & Infrastructure,60.7
+5,0,0,0,1,1,0,12,0,57.0,2,611,AI/ML & Data,81.5
+8,4,0,1,0,0,0,3,1,60.0,6,436,Mobile Application,62.8
+5,3,1,0,0,1,0,3,0,57.0,1,441,Web Application,65.8
+6,1,0,0,0,1,0,5,0,57.0,2,317,Cloud/DevOps & Infrastructure,67.3
+10,2,1,1,0,0,0,8,1,64.0,3,539,Web Application,77.2
+10,1,1,1,0,0,1,5,0,57.0,4,399,Web Application,61.3
+5,3,1,0,1,0,1,5,1,31.0,4,307,Cloud/DevOps & Infrastructure,78.6
+11,3,0,1,1,0,0,9,1,0.0,4,391,Mobile Application,73.1
+7,4,0,0,1,0,0,8,1,51.0,2,975,AI/ML & Data,94.5
+8,4,0,1,0,0,0,6,0,57.0,2,692,Mobile Application,70.6
+1,2,0,0,1,1,1,11,1,131.0,4,779,AI/ML & Data,94.6
+11,0,1,0,0,0,0,3,1,94.0,1,590,Web Application,79.7
+0,2,1,0,0,1,0,5,0,57.0,4,501,Web Application,42.0
+2,2,1,0,0,1,1,4,1,79.0,3,601,Web Application,72.5
+10,2,1,0,0,0,0,7,1,75.0,2,508,Web Application,55.9
+4,2,1,1,1,1,0,2,0,57.0,3,549,Cloud/DevOps & Infrastructure,83.4
+11,4,1,0,0,0,0,5,0,57.0,0,600,Web Application,73.0
+10,2,0,1,0,1,0,5,1,57.0,3,621,Mobile Application,83.4
+8,3,1,0,1,1,1,8,0,57.0,4,494,AI/ML & Data,96.7
+5,3,1,0,1,0,1,9,0,57.0,2,392,AI/ML & Data,92.0
+11,4,0,1,0,1,1,10,0,57.0,0,480,Mobile Application,86.2
+7,3,0,1,0,1,0,3,1,93.0,4,648,Mobile Application,66.0
+7,1,0,0,0,1,0,9,0,57.0,3,436,Cloud/DevOps & Infrastructure,69.5
+11,3,1,0,1,1,1,10,0,57.0,6,1132,AI/ML & Data,117.2
+9,4,0,1,0,1,1,6,0,57.0,4,489,Cloud/DevOps & Infrastructure,89.8
+4,4,0,0,0,1,0,8,1,74.0,0,436,Cloud/DevOps & Infrastructure,67.3
+7,4,0,0,1,0,1,4,0,57.0,9,482,AI/ML & Data,103.4
+7,3,0,1,1,0,0,9,1,66.0,4,320,Web Application,50.4
+14,4,0,1,0,1,0,6,1,36.0,1,805,Mobile Application,102.7
+11,0,1,0,0,0,1,4,1,4.0,0,562,Web Application,69.1
+9,0,1,1,1,1,1,2,0,57.0,4,608,AI/ML & Data,99.5
+6,4,0,0,0,1,1,8,0,57.0,0,182,Cloud/DevOps & Infrastructure,68.8
+5,4,0,1,0,0,0,1,0,57.0,3,330,Mobile Application,57.0
+4,3,0,1,0,0,0,6,1,60.0,3,640,Mobile Application,59.8
+17,0,1,0,0,1,1,5,1,50.0,0,442,AI/ML & Data,81.2
+5,4,0,0,0,1,1,5,1,76.0,3,192,Cloud/DevOps & Infrastructure,66.8
+7,1,1,0,0,0,1,6,0,57.0,3,448,Web Application,44.3
+10,3,1,1,0,0,0,5,0,57.0,0,692,Web Application,67.6
+3,1,1,0,0,0,0,1,0,57.0,1,726,Web Application,65.4
+12,1,1,0,0,0,0,4,1,41.0,2,542,Cloud/DevOps & Infrastructure,63.6
+5,3,0,1,0,0,1,7,1,17.0,3,535,Mobile Application,65.2
+10,4,0,1,0,0,0,3,1,45.0,0,589,Mobile Application,84.5
+7,4,1,0,0,0,0,5,0,57.0,2,269,Web Application,61.1
+7,0,1,0,0,1,0,6,1,29.0,1,301,Cloud/DevOps & Infrastructure,53.4
+11,3,1,0,0,0,1,7,1,79.0,0,760,Web Application,91.2
+9,3,0,1,1,0,1,6,0,57.0,2,499,Mobile Application,87.0
+8,1,1,0,0,0,0,5,1,97.0,0,308,Web Application,40.3
+11,3,1,0,1,0,1,2,0,57.0,3,789,AI/ML & Data,99.6
+11,0,1,0,0,0,0,4,0,57.0,3,510,Web Application,71.2
+10,1,1,0,0,1,0,4,1,25.0,2,636,Web Application,65.6
+8,1,0,1,0,0,0,4,0,57.0,3,598,Mobile Application,68.2
+6,3,0,1,0,0,0,8,1,124.0,5,626,Mobile Application,65.5
+7,0,1,0,0,1,1,5,0,57.0,4,503,Web Application,57.0
+1,3,1,1,0,0,0,3,0,57.0,3,387,Web Application,38.6
+2,0,0,0,0,1,1,10,1,64.0,6,509,Cloud/DevOps & Infrastructure,55.4
+8,0,1,0,0,0,0,3,1,66.0,0,480,Web Application,45.0
+6,1,0,1,0,0,0,5,0,57.0,0,594,Mobile Application,39.9
+9,2,0,1,0,0,0,3,0,57.0,1,674,Mobile Application,62.3
+6,3,1,0,0,0,0,2,1,80.0,0,411,Web Application,61.4
+10,1,0,1,1,1,0,5,0,57.0,3,587,Mobile Application,88.2
+15,3,0,1,1,0,1,8,0,57.0,3,854,AI/ML & Data,119.2
+7,1,0,0,0,1,0,4,0,57.0,3,189,Cloud/DevOps & Infrastructure,71.0
+7,2,1,0,0,0,0,5,1,92.0,1,384,Web Application,34.9
+11,2,1,0,0,1,0,3,1,24.0,1,633,Web Application,69.3
+6,3,1,0,0,0,0,7,1,33.0,1,492,Web Application,45.5
+14,3,0,1,0,1,1,5,1,55.0,1,305,AI/ML & Data,83.2
+13,3,1,0,1,0,1,5,1,73.0,4,584,AI/ML & Data,105.8
+11,2,1,0,0,0,0,3,1,76.0,2,681,Web Application,72.4
+8,2,1,0,0,1,1,2,0,57.0,3,391,Web Application,63.9
+7,2,0,0,0,1,0,2,1,17.0,5,442,Cloud/DevOps & Infrastructure,78.4
+7,1,1,0,0,0,1,7,1,114.0,2,706,Web Application,55.3
+8,5,0,1,0,0,0,5,0,57.0,4,624,Mobile Application,72.9
+9,2,0,0,1,0,0,4,0,57.0,3,602,AI/ML & Data,96.0
+7,0,1,0,0,0,0,6,0,57.0,2,402,Web Application,46.6
+9,2,1,0,0,0,0,4,0,57.0,3,674,AI/ML & Data,72.9
+10,2,1,0,0,0,0,7,0,57.0,2,414,Web Application,53.6
+1,3,0,0,0,1,0,4,0,57.0,2,377,Cloud/DevOps & Infrastructure,75.0
+7,0,1,0,0,0,0,5,1,3.0,4,743,Mobile Application,52.0
+13,2,1,0,0,1,0,6,1,42.0,1,294,Web Application,84.3
+6,5,1,0,0,0,0,9,1,11.0,1,399,Web Application,58.4
+10,1,1,1,0,0,0,6,1,84.0,3,510,Web Application,47.6
+9,5,0,1,0,0,0,6,0,57.0,2,570,Mobile Application,78.9
+13,3,1,1,0,0,0,4,1,27.0,0,654,Web Application,60.8
+12,2,0,1,0,0,0,1,0,57.0,1,429,Web Application,61.6
+7,4,0,1,0,0,0,5,0,57.0,1,658,Mobile Application,74.9
+7,3,0,0,0,1,1,9,0,57.0,6,519,Cloud/DevOps & Infrastructure,80.4
+8,2,1,0,0,1,0,6,1,69.0,3,673,Web Application,64.7
+6,3,1,0,0,1,0,4,0,57.0,2,709,Cloud/DevOps & Infrastructure,77.4
+8,4,0,1,0,0,0,4,0,57.0,2,524,Mobile Application,84.8
+10,2,1,0,0,0,0,7,0,57.0,4,622,Web Application,62.1
+8,1,0,0,1,1,0,10,0,57.0,5,920,AI/ML & Data,104.8
+2,5,0,0,0,1,0,5,0,57.0,7,131,Cloud/DevOps & Infrastructure,71.3
+6,2,1,0,0,0,1,2,1,54.0,2,577,Web Application,51.3
+2,4,1,0,0,1,1,7,1,32.0,5,401,Cloud/DevOps & Infrastructure,81.5
+11,0,0,1,0,0,0,4,1,25.0,2,811,Mobile Application,74.4
+13,4,1,1,0,0,0,5,1,83.0,3,637,Mobile Application,76.2
+5,0,1,0,0,1,0,7,0,57.0,6,536,Cloud/DevOps & Infrastructure,64.3
+6,3,1,1,0,0,0,4,0,57.0,2,680,Mobile Application,72.7
+4,4,0,0,0,1,1,8,1,106.0,1,311,Cloud/DevOps & Infrastructure,72.2
+11,2,1,0,0,0,0,3,1,16.0,4,571,Web Application,65.4
+11,3,0,0,1,1,1,10,0,57.0,3,683,AI/ML & Data,110.8
+11,2,1,1,0,0,0,4,1,76.0,4,760,Mobile Application,91.4
+6,2,1,0,0,0,0,3,0,57.0,1,776,Web Application,66.7
+9,4,0,1,0,0,0,7,1,120.0,2,494,Mobile Application,69.1
+6,4,1,0,0,0,0,4,0,57.0,3,728,Web Application,64.6
+5,1,1,0,0,0,0,7,0,57.0,4,419,Cloud/DevOps & Infrastructure,33.8
+9,3,1,0,0,0,0,5,0,57.0,3,569,Web Application,57.2
+7,2,1,0,0,0,0,5,1,0.0,0,331,Web Application,24.3
+4,0,1,0,0,0,1,5,0,57.0,2,538,Web Application,55.3
+7,0,1,0,0,0,1,5,0,57.0,0,749,AI/ML & Data,51.9
+8,1,1,0,1,0,1,8,1,88.0,4,720,AI/ML & Data,99.7
+10,2,1,0,1,0,1,4,1,24.0,5,609,AI/ML & Data,103.7
+6,3,0,0,1,0,1,9,0,57.0,1,664,AI/ML & Data,90.6
+8,1,1,0,0,0,0,4,1,22.0,1,429,Web Application,49.9
+10,7,1,0,0,1,0,3,1,92.0,2,291,Cloud/DevOps & Infrastructure,82.1
+12,2,0,1,0,0,0,8,1,27.0,2,478,Mobile Application,61.8
+9,1,1,0,0,0,1,4,0,57.0,2,723,Web Application,58.6
+11,5,1,0,0,1,0,5,1,81.0,2,305,Web Application,73.3
+5,4,0,0,1,1,1,12,0,57.0,2,794,AI/ML & Data,77.9
+2,2,1,1,0,0,0,4,1,25.0,4,565,Web Application,47.1
+4,2,0,1,0,1,1,8,0,57.0,2,535,Mobile Application,67.0
+3,3,1,0,0,1,0,8,0,57.0,2,450,Web Application,71.6
+9,4,1,0,1,0,0,6,0,57.0,4,319,AI/ML & Data,70.6
+5,4,1,0,0,0,0,6,1,61.0,3,438,Web Application,58.6
+4,2,0,0,0,1,0,7,0,57.0,7,158,Cloud/DevOps & Infrastructure,85.1
+3,3,0,1,0,1,0,7,0,57.0,2,726,Mobile Application,75.5
+0,2,1,1,0,0,0,2,0,57.0,4,738,Web Application,57.6
+8,6,1,0,0,1,1,10,0,57.0,5,630,Cloud/DevOps & Infrastructure,94.9
+3,1,0,0,0,1,0,11,0,57.0,7,450,Cloud/DevOps & Infrastructure,70.7
+11,5,0,1,0,1,0,9,1,63.0,2,651,Mobile Application,79.3
+6,3,0,1,0,0,0,6,1,43.0,4,421,Mobile Application,75.2
+8,1,1,1,0,0,1,9,0,57.0,3,432,Web Application,70.4
+16,1,1,0,0,0,1,8,0,57.0,2,314,Web Application,68.6
+9,3,0,0,0,0,0,5,0,57.0,4,591,Mobile Application,60.3
+10,0,1,0,0,0,0,6,1,151.0,0,491,Web Application,55.2
+8,2,1,0,1,0,0,6,0,57.0,8,711,AI/ML & Data,74.0
+4,1,0,0,0,1,1,7,1,38.0,6,353,Cloud/DevOps & Infrastructure,80.5
+9,2,1,0,1,1,0,7,1,87.0,5,727,Web Application,81.1
+11,5,0,1,0,1,0,7,0,57.0,2,425,Mobile Application,72.9
+5,3,1,0,0,0,0,4,0,57.0,1,508,Web Application,56.3
+4,1,0,0,0,1,0,5,0,57.0,6,243,Cloud/DevOps & Infrastructure,62.3
+6,1,0,0,0,1,1,2,0,57.0,2,289,Web Application,53.4
+9,1,1,1,0,0,0,4,0,57.0,6,690,Mobile Application,70.5
+10,3,1,1,0,0,0,4,1,70.0,4,465,Mobile Application,77.4
+8,2,0,1,0,0,0,6,1,57.0,2,509,Mobile Application,67.0
+6,4,0,0,0,1,1,6,0,57.0,3,640,AI/ML & Data,88.3
+4,1,0,0,1,0,1,7,1,83.0,5,364,AI/ML & Data,87.6
+4,6,1,1,0,0,0,9,0,57.0,1,441,Mobile Application,59.9
+6,3,0,0,1,0,1,3,1,0.0,3,671,AI/ML & Data,90.8
+4,1,0,0,0,1,0,6,0,57.0,3,381,Cloud/DevOps & Infrastructure,45.6
+11,5,0,1,0,0,0,6,1,50.0,3,283,Cloud/DevOps & Infrastructure,70.7
+10,4,0,1,0,0,0,2,0,57.0,0,207,Mobile Application,68.4
+13,3,1,0,0,1,0,6,0,57.0,4,462,Web Application,74.0
+11,0,1,0,1,1,1,12,1,41.0,1,410,AI/ML & Data,103.0
+13,4,1,1,0,0,0,0,1,49.0,1,620,AI/ML & Data,72.8
+5,3,0,1,0,0,0,0,0,57.0,0,502,Mobile Application,75.5
+7,1,1,0,0,0,0,5,0,57.0,1,609,Web Application,40.9
+4,4,0,0,0,0,1,4,1,63.0,3,244,Cloud/DevOps & Infrastructure,68.5
+15,2,0,1,0,0,1,7,1,81.0,1,648,Mobile Application,76.4
+3,2,1,0,1,0,1,4,0,57.0,4,550,AI/ML & Data,74.9
+6,3,1,0,0,1,0,3,0,57.0,4,372,Web Application,66.8
+7,2,0,0,0,1,1,6,1,34.0,1,359,Cloud/DevOps & Infrastructure,73.1
+11,2,1,0,0,0,0,4,1,10.0,3,489,Web Application,55.6
+5,3,1,0,0,0,0,1,0,57.0,1,518,Web Application,66.0
+3,4,0,0,0,1,1,5,1,70.0,5,174,Cloud/DevOps & Infrastructure,68.1
+7,4,1,0,1,1,0,0,1,22.0,2,658,Cloud/DevOps & Infrastructure,94.8
+6,1,1,0,0,0,0,7,1,102.0,2,406,Web Application,54.1
+6,1,0,1,0,0,0,1,1,46.0,1,412,Mobile Application,66.6
+7,7,1,0,0,1,1,9,1,36.0,2,724,Cloud/DevOps & Infrastructure,106.2
+6,3,0,0,0,1,0,5,1,58.0,5,604,Mobile Application,77.9
+10,3,1,1,0,0,0,9,1,82.0,4,461,Mobile Application,73.2
+11,4,0,1,0,1,0,8,1,84.0,2,488,Mobile Application,72.2
+8,2,0,0,1,1,1,10,0,57.0,6,472,AI/ML & Data,115.9
+11,4,0,0,1,0,1,8,0,57.0,5,758,AI/ML & Data,115.3
+5,1,0,0,1,0,1,10,0,57.0,4,654,AI/ML & Data,82.7
+10,3,0,1,0,0,0,5,0,57.0,4,544,Mobile Application,76.0
+8,2,1,0,0,0,1,3,1,113.0,3,253,Web Application,64.3
+8,5,0,0,0,0,0,9,0,57.0,4,323,Cloud/DevOps & Infrastructure,82.3
+5,1,1,1,0,1,1,4,1,45.0,2,239,Cloud/DevOps & Infrastructure,55.6
+8,3,0,0,1,1,0,10,1,62.0,5,564,AI/ML & Data,100.3
+7,0,1,0,0,0,0,1,1,17.0,1,447,Web Application,49.5
+9,5,1,0,0,0,0,3,0,57.0,0,342,Web Application,64.4
+6,2,0,0,1,1,1,5,0,57.0,5,659,AI/ML & Data,101.1
+7,5,1,0,0,0,0,2,1,51.0,1,515,Web Application,70.5
+4,3,0,0,0,1,1,6,0,57.0,4,472,Cloud/DevOps & Infrastructure,68.4
+7,2,0,1,0,1,0,6,1,103.0,5,636,Mobile Application,79.0
+8,2,1,0,1,1,1,6,1,81.0,8,430,AI/ML & Data,107.2
+1,7,1,0,0,1,0,6,1,40.0,4,369,Cloud/DevOps & Infrastructure,89.0
+9,0,0,1,0,1,0,4,1,105.0,2,346,Mobile Application,57.4
+11,4,1,1,0,1,0,5,0,57.0,4,619,Web Application,80.3
+6,3,0,1,0,0,0,5,1,87.0,3,414,Mobile Application,60.4
+7,2,0,1,0,1,0,4,0,57.0,0,529,Mobile Application,69.2
+6,1,0,1,0,1,0,6,0,57.0,2,558,Mobile Application,73.7
+4,5,0,1,0,0,0,6,1,9.0,1,462,Mobile Application,57.9
+6,3,0,0,0,0,1,3,1,67.0,2,406,Cloud/DevOps & Infrastructure,68.5
+10,7,1,1,0,0,0,5,1,106.0,2,402,Mobile Application,67.3
+4,4,1,0,0,0,0,4,0,57.0,3,626,Web Application,63.0
+10,1,0,1,0,0,0,4,0,57.0,3,711,Mobile Application,62.7
+7,5,0,1,0,1,0,4,1,39.0,1,585,Mobile Application,74.4
+8,3,1,0,0,0,0,6,1,51.0,2,655,Web Application,65.0
+13,0,1,0,0,0,1,2,0,57.0,2,506,Web Application,63.9
+4,3,0,0,1,0,0,12,1,93.0,4,559,AI/ML & Data,94.3
+11,2,1,0,0,0,0,10,0,57.0,2,485,Web Application,67.1
+0,2,1,0,0,1,1,7,1,57.0,4,388,Cloud/DevOps & Infrastructure,57.5
+15,2,1,0,0,0,0,4,1,81.0,1,354,Web Application,60.1
+9,4,1,0,0,0,0,7,0,57.0,3,782,Web Application,70.6
+5,3,0,0,1,0,0,8,1,15.0,4,763,AI/ML & Data,92.1
+4,2,0,0,0,1,0,7,1,61.0,5,545,Web Application,72.9
+8,3,1,1,0,0,1,1,1,106.0,0,638,Web Application,53.5
+7,2,1,0,1,1,0,3,1,47.0,3,437,Web Application,72.1
+4,0,1,1,0,0,0,5,0,57.0,1,282,Mobile Application,47.1
+10,1,0,1,0,0,0,5,0,57.0,3,282,Mobile Application,60.2
