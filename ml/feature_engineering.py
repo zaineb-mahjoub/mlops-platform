@@ -5,7 +5,6 @@ DEFAULT_DEADLINE_DAYS = 60
 def map_to_features(spec: ExtractedProjectSpec, raw_text: str) -> dict:
     app_types = [a.lower() for a in spec.application_type]
     app_text = " ".join(app_types)
-
     return {
         "num_functional_requirements": len(spec.functional_requirements),
         "num_integrations": len(spec.integrations),
@@ -17,8 +16,6 @@ def map_to_features(spec: ExtractedProjectSpec, raw_text: str) -> dict:
         "num_technologies_mentioned": len(spec.technologies),
         "has_deadline": int(spec.deadline_days is not None),
         "deadline_days": float(spec.deadline_days) if spec.deadline_days is not None else float(DEFAULT_DEADLINE_DAYS),
-        "complexity_keyword_count": len(spec.security_requirements)
-            + int(len(spec.real_time_requirements) > 0)
-            + len(spec.constraints),
+        "complexity_keyword_count": len(spec.security_requirements) + int(len(spec.real_time_requirements) > 0) + len(spec.constraints),
         "requirement_text_length": len(raw_text.split()),
     }

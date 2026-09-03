@@ -6,8 +6,8 @@ import tempfile
 import sys
 from pathlib import Path
 from fastapi import UploadFile, File
-
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "ml"))
+from rag import answer_question, index_document
 from extraction import extract_text
 from groq_extractor import extract_features as extract_project_spec
 from feature_engineering import map_to_features
@@ -37,6 +37,8 @@ class ProjectFeatures(BaseModel):
 
 _classifier = None
 _regressor = None
+_last_document_text = None
+_last_document_id = None
 
 def get_classifier():
     global _classifier
@@ -87,6 +89,9 @@ async def analyze(file: UploadFile = File(...)):
     finally:
         Path(tmp_path).unlink(missing_ok=True)
 
+    global _last_document_text
+    _last_document_text = raw_text
+
     try:
         spec = extract_project_spec(raw_text)
     except RuntimeError as e:
@@ -104,3 +109,20 @@ async def analyze(file: UploadFile = File(...)):
         "classification": {"project_category": str(category)},
         "regression": {"estimated_effort_person_days": round(float(effort), 1)},
     }
+class AskRequest(BaseModel):
+    question: str
+
+@router.post("/ask")
+def ask(request: AskRequest):
+    if _last_document_id is None:
+        raise HTTPException(
+            status_code=400,
+            detail="No document has been analyzed yet. Call /analyze first."
+        )
+
+    answer = answer_question(
+        _last_document_id,
+        request.question
+    )
+
+    return {"answer": answer}

@@ -1,11 +1,7 @@
-import os
 import json
-from dotenv import load_dotenv
 from groq import Groq
 from pydantic import ValidationError
 from schemas import ExtractedProjectSpec
-
-load_dotenv()
 
 MODEL = "qwen/qwen3.6-27b"
 
@@ -19,20 +15,12 @@ mentioned.
 
 Respond with ONLY a valid JSON object, no other text, matching EXACTLY this structure:
 {
-  "project_name": "<string>",
-  "domain": "<string>",
-  "application_type": ["<string>", ...],
-  "functional_requirements": ["<string>", ...],
-  "technologies": ["<string>", ...],
-  "integrations": ["<string>", ...],
-  "database": ["<string>", ...],
-  "security_requirements": ["<string>", ...],
-  "ai_ml_requirements": ["<string>", ...],
-  "cloud_requirements": ["<string>", ...],
-  "data_requirements": ["<string>", ...],
-  "real_time_requirements": ["<string>", ...],
-  "deadline_days": <integer or null>,
-  "constraints": ["<string>", ...]
+  "project_name": "<string>", "domain": "<string>",
+  "application_type": ["<string>"], "functional_requirements": ["<string>"],
+  "technologies": ["<string>"], "integrations": ["<string>"], "database": ["<string>"],
+  "security_requirements": ["<string>"], "ai_ml_requirements": ["<string>"],
+  "cloud_requirements": ["<string>"], "data_requirements": ["<string>"],
+  "real_time_requirements": ["<string>"], "deadline_days": null, "constraints": ["<string>"]
 }"""
 
 def extract_features(raw_text: str, max_retries: int = 2) -> ExtractedProjectSpec:
@@ -56,6 +44,3 @@ def extract_features(raw_text: str, max_retries: int = 2) -> ExtractedProjectSpe
             last_error = e
             continue
     raise RuntimeError(f"Extraction failed after {max_retries + 1} attempts: {last_error}")
-
-
-
