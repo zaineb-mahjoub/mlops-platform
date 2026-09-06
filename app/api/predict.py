@@ -11,6 +11,8 @@ from rag import answer_question, index_document
 from extraction import extract_text
 from groq_extractor import extract_features as extract_project_spec
 from feature_engineering import map_to_features
+from agent import run_agent
+
 
 router = APIRouter()
 
@@ -74,6 +76,7 @@ def predict_effort(features: ProjectFeatures):
     X = to_frame(features)
     pred = model.predict(X)
     return {"estimated_effort_person_days": round(float(pred[0]), 1)}
+
 @router.post("/analyze")
 async def analyze(file: UploadFile = File(...)):
     suffix = Path(file.filename).suffix.lower()
@@ -89,8 +92,10 @@ async def analyze(file: UploadFile = File(...)):
     finally:
         Path(tmp_path).unlink(missing_ok=True)
 
-    global _last_document_text
+    global _last_document_text, _last_document_id
     _last_document_text = raw_text
+    _last_document_id = Path(file.filename).stem
+    index_document(_last_document_id, raw_text)
 
     try:
         spec = extract_project_spec(raw_text)
@@ -126,3 +131,36 @@ def ask(request: AskRequest):
     )
 
     return {"answer": answer}
+
+
+class AgentRequest(BaseModel):
+    message: str
+
+def _analyze_cached_document():
+    if _last_document_text is None:
+        raise HTTPException(status_code=400, detail="No document has been analyzed yet.")
+    spec = extract_project_spec(_last_document_text)
+    feature_dict = map_to_features(spec, _last_document_text)
+    features = ProjectFeatures(**feature_dict)
+    X = to_frame(features)
+    category = get_classifier().predict(X)[0]
+    effort = get_regressor().predict(X)[0]
+    return {
+        "project_specification": spec.model_dump(),
+        "classification": {"project_category": str(category)},
+        "regression": {"estimated_effort_person_days": round(float(effort), 1)},
+    }
+
+def _ask_cached_document(question: str):
+    if _last_document_id is None:
+        raise HTTPException(status_code=400, detail="No document has been analyzed yet.")
+    return answer_question(_last_document_id, question)
+
+@router.post("/agent")
+def agent_endpoint(request: AgentRequest):
+    if _last_document_text is None:
+        raise HTTPException(status_code=400, detail="No document has been analyzed yet. Call /analyze first.")
+    return run_agent(request.message, _analyze_cached_document, _ask_cached_document)
+
+
+

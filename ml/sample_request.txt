@@ -1,1 +1,1 @@
-We need a web platform for managing customer orders, with Stripe payment integration and PostgreSQL database. The system should send real-time notifications when orders are placed. Deadline: 45 days.
+We need a business intelligence platform that collects sales data from multiple sources and provides interactive dashboards for management. The system should use PostgreSQL, include automated data pipelines, and generate monthly sales reports. Deadline: 75 days.

@@ -96,8 +96,11 @@ def generate_answer(
                 )
             }
         ],
-        temperature=0
+        temperature=0,
+        max_tokens=300,
+        reasoning_effort="none",
     )
+    
 
     return completion.choices[0].message.content
 
