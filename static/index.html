@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ITgate Project Analyzer</title>
+<style>
+  body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+  section { margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 8px; }
+  button { padding: 8px 16px; cursor: pointer; }
+  #results, #askResult { white-space: pre-wrap; background: #f5f5f5; padding: 10px; border-radius: 6px; margin-top: 10px; }
+  input[type=text] { width: 70%; padding: 6px; }
+  .loading { color: #888; font-style: italic; }
+</style>
+</head>
+<body>
+<h1>ITgate Project Analyzer</h1>
+
+<section>
+  <h2>1. Upload client requirement</h2>
+  <input type="file" id="fileInput" accept=".pdf,.docx,.txt">
+  <button onclick="analyze()">Analyze</button>
+  <div id="results"></div>
+</section>
+
+<section>
+  <h2>2. Ask about the document</h2>
+  <input type="text" id="questionInput" placeholder="What database does it need?">
+  <button onclick="ask()">Ask</button>
+  <div id="askResult"></div>
+</section>
+
+<script>
+async function analyze() {
+  const fileInput = document.getElementById('fileInput');
+  const resultsDiv = document.getElementById('results');
+  if (!fileInput.files.length) { resultsDiv.textContent = 'Please choose a file first.'; return; }
+  resultsDiv.innerHTML = '<span class="loading">Analyzing...</span>';
+  const formData = new FormData();
+  formData.append('file', fileInput.files[0]);
+  try {
+    const res = await fetch('/analyze', { method: 'POST', body: formData });
+    const data = await res.json();
+    resultsDiv.textContent = res.ok ? JSON.stringify(data, null, 2) : 'Error: ' + (data.detail || res.status);
+  } catch (e) { resultsDiv.textContent = 'Request failed: ' + e.message; }
+}
+
+async function ask() {
+  const question = document.getElementById('questionInput').value;
+  const askResult = document.getElementById('askResult');
+  if (!question) { askResult.textContent = 'Type a question first.'; return; }
+  askResult.innerHTML = '<span class="loading">Thinking...</span>';
+  try {
+    const res = await fetch('/ask', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question }),
+    });
+    const data = await res.json();
+    askResult.textContent = res.ok ? data.answer : 'Error: ' + (data.detail || res.status);
+  } catch (e) { askResult.textContent = 'Request failed: ' + e.message; }
+}
+</script>
+</body>
+</html>
