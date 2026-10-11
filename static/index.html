@@ -1,123 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ITgate Project Analyzer</title>
+<title>ITgate MLOps Platform</title>
 <style>
   :root {
-    --primary: #2563eb; --primary-dark: #1d4ed8; --bg: #f8fafc;
-    --card: #ffffff; --border: #e2e8f0; --text: #0f172a; --text-muted: #64748b;
-    --success: #16a34a; --radius: 12px;
+    --bg: #0b1120; --panel: #131c2e; --panel2: #1a2740; --border: #253449;
+    --accent: #3b82f6; --accent2: #22d3ee; --text: #e2e8f0; --muted: #8b9bb5;
+    --success: #22c55e; --radius: 10px;
   }
   * { box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg); color: var(--text); margin: 0; padding: 40px 20px;
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 230px; background: var(--panel); border-right: 1px solid var(--border); padding: 20px 12px; flex-shrink: 0; }
+  .brand { font-weight: 700; font-size: 15px; padding: 8px 10px 20px; color: white; }
+  .brand span { color: var(--accent2); }
+  .navitem {
+    padding: 10px 12px; border-radius: 8px; cursor: pointer; font-size: 14px; color: var(--muted);
+    margin-bottom: 4px; transition: background 0.15s, color 0.15s;
   }
-  .container { max-width: 780px; margin: 0 auto; }
-  header { text-align: center; margin-bottom: 32px; }
-  header h1 { font-size: 26px; font-weight: 700; margin: 0 0 4px; }
-  header p { color: var(--text-muted); margin: 0; font-size: 14px; }
-
-  .card {
-    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
-    padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  }
-  .card h2 { font-size: 15px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
-
-  .upload-zone {
-    border: 2px dashed var(--border); border-radius: var(--radius); padding: 28px;
-    text-align: center; transition: border-color 0.2s;
-  }
-  .upload-zone.has-file { border-color: var(--primary); background: #eff6ff; }
+  .navitem:hover { background: var(--panel2); color: var(--text); }
+  .navitem.active { background: var(--accent); color: white; }
+  .main { flex: 1; padding: 32px 40px; max-width: 900px; }
+  .section { display: none; }
+  .section.active { display: block; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 18px; }
+  .card h3 { margin: 0 0 14px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .stat { background: var(--panel2); border-radius: 8px; padding: 16px; }
+  .stat .num { font-size: 24px; font-weight: 700; color: var(--accent2); }
+  .stat .lbl { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .badge { display: inline-block; background: rgba(34,197,94,0.15); color: var(--success); font-size: 12px; padding: 3px 10px; border-radius: 999px; font-weight: 600; }
+  .upload-zone { border: 2px dashed var(--border); border-radius: var(--radius); padding: 28px; text-align: center; }
+  .file-label { display: inline-block; padding: 10px 20px; background: var(--accent); color: white; border-radius: 8px; cursor: pointer; font-weight: 500; font-size: 14px; }
   input[type=file] { display: none; }
-  .file-label {
-    display: inline-block; padding: 10px 20px; background: var(--primary); color: white;
-    border-radius: 8px; cursor: pointer; font-weight: 500; font-size: 14px; transition: background 0.2s;
-  }
-  .file-label:hover { background: var(--primary-dark); }
-  .file-name { margin-top: 10px; font-size: 13px; color: var(--text-muted); }
-
-  button.primary {
-    width: 100%; padding: 12px; margin-top: 16px; background: var(--primary); color: white;
-    border: none; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; transition: background 0.2s;
-  }
-  button.primary:hover { background: var(--primary-dark); }
-  button.primary:disabled { background: #94a3b8; cursor: not-allowed; }
-
-  .stat-row { display: flex; gap: 16px; margin-bottom: 16px; }
-  .stat { flex: 1; background: #f1f5f9; border-radius: 10px; padding: 16px; text-align: center; }
-  .stat .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
-  .stat .value { font-size: 22px; font-weight: 700; color: var(--primary); }
-
-  .field-group { margin-bottom: 14px; }
-  .field-group .label { font-size: 13px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-  .tag { background: #eff6ff; color: var(--primary-dark); padding: 4px 10px; border-radius: 999px; font-size: 13px; }
-
-  input[type=text] {
-    width: 100%; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px;
-    font-size: 14px; margin-bottom: 10px;
-  }
-  .answer-box {
-    background: #f1f5f9; border-radius: 8px; padding: 14px; font-size: 14px; line-height: 1.5;
-    display: none;
-  }
-  .loading { color: var(--text-muted); font-size: 14px; text-align: center; padding: 12px; }
-  .error { color: #dc2626; font-size: 14px; padding: 12px; background: #fef2f2; border-radius: 8px; }
-  #resultsCard, #askCard { display: none; }
+  input[type=text] { width: 100%; padding: 11px 14px; background: var(--panel2); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 14px; }
+  button.primary { padding: 11px 22px; background: var(--accent); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 14px; margin-top: 10px; }
+  button.primary:hover { background: #2563eb; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .tag { background: rgba(59,130,246,0.15); color: var(--accent2); padding: 4px 10px; border-radius: 999px; font-size: 12.5px; }
+  .field-label { font-size: 12.5px; font-weight: 600; color: var(--muted); margin: 12px 0 4px; }
+  .loading { color: var(--muted); font-size: 14px; }
+  .error { color: #f87171; font-size: 14px; }
+  .tool-badge { display: inline-block; background: rgba(34,211,238,0.15); color: var(--accent2); font-size: 12px; padding: 4px 10px; border-radius: 6px; margin-bottom: 10px; font-family: monospace; }
+  .answer { background: var(--panel2); border-radius: 8px; padding: 14px; margin-top: 10px; line-height: 1.6; font-size: 14px; }
+  .flow-row { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); flex-wrap: wrap; margin-top: 8px; }
+  .flow-step { background: var(--panel2); padding: 6px 12px; border-radius: 6px; color: var(--text); }
 </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>ITgate Project Analyzer</h1>
-    <p>AI-powered client requirement analysis — Sujet 2 MLOps Platform</p>
-  </header>
-
-  <div class="card">
-    <h2>Upload Client Requirement</h2>
-    <div class="upload-zone" id="uploadZone">
-      <label class="file-label" for="fileInput">Choose PDF / DOCX / TXT</label>
-      <input type="file" id="fileInput" accept=".pdf,.docx,.txt" onchange="onFileChosen()">
-      <div class="file-name" id="fileName">No file selected</div>
-    </div>
-    <button class="primary" id="analyzeBtn" onclick="analyze()" disabled>Analyze Project</button>
+<div class="layout">
+  <div class="sidebar">
+  <div class="brand" style="display:flex; align-items:center; gap:8px;">
+  <img src="/ui/logo.png" style="width:28px; height:28px;">
+  ITgate <span>MLOps</span></div>
+    <div class="navitem active" data-section="dashboard">📊 Dashboard</div>
+    <div class="navitem" data-section="analyze">🔍 Analyse de projet</div>
+    <div class="navitem" data-section="assistant">💬 Assistant IA</div>
+    <div class="navitem" data-section="model">🧠 Modèles ML</div>
+    <div class="navitem" data-section="deploy">🐳 Déploiement</div>
   </div>
 
-  <div id="analyzeStatus"></div>
-
-  <div class="card" id="resultsCard">
-    <h2>Analysis Results</h2>
-    <div class="stat-row">
-      <div class="stat">
-        <div class="label">Category</div>
-        <div class="value" id="categoryValue">—</div>
+  <div class="main">
+    <div class="section active" id="dashboard">
+      <h1>Vue d'ensemble</h1>
+      <div class="subtitle">Plateforme MLOps — Sujet 2, ITgate</div>
+      <div class="card">
+        <h3>Statut système</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num">✅</div><div class="lbl">API opérationnelle</div></div>
+          <div class="stat"><div class="num">2</div><div class="lbl">Modèles ML enregistrés</div></div>
+          <div class="stat"><div class="num">6</div><div class="lbl">Endpoints actifs</div></div>
+        </div>
       </div>
-      <div class="stat">
-        <div class="label">Estimated Effort</div>
-        <div class="value" id="effortValue">—</div>
+      <div class="card">
+        <h3>Architecture du pipeline</h3>
+        <div class="flow-row">
+          <span class="flow-step">Document</span>→<span class="flow-step">Extraction</span>→<span class="flow-step">Qwen/Groq</span>→<span class="flow-step">Spécification structurée</span>→<span class="flow-step">Classification + Régression</span>
+        </div>
+        <div class="flow-row">
+          <span class="flow-step">Document</span>→<span class="flow-step">RAG (embeddings)</span>→<span class="flow-step">Réponse</span>
+        </div>
+        <div class="flow-row">
+          <span class="flow-step">Requête utilisateur</span>→<span class="flow-step">Agent orchestrateur</span>→<span class="flow-step">Outil approprié</span>
+        </div>
       </div>
     </div>
-    <div id="specFields"></div>
-  </div>
 
-  <div class="card" id="askCard">
-    <h2>Ask About This Project</h2>
-    <input type="text" id="questionInput" placeholder="e.g. What database does it need?">
-    <button class="primary" onclick="ask()">Ask</button>
-    <div id="askStatus"></div>
-    <div class="answer-box" id="askAnswer"></div>
+    <div class="section" id="analyze">
+      <h1>Analyse de projet client</h1>
+      <div class="subtitle">Extraction intelligente → Classification → Estimation d'effort</div>
+      <div class="card">
+        <div class="upload-zone">
+          <label class="file-label" for="fileInput">Choisir un fichier PDF / DOCX / TXT</label>
+          <input type="file" id="fileInput" accept=".pdf,.docx,.txt" onchange="onFileChosen()">
+          <div id="fileName" style="margin-top:10px;color:var(--muted);font-size:13px;">Aucun fichier sélectionné</div>
+        </div>
+        <button class="primary" onclick="analyze()">Analyser le projet</button>
+        <div id="analyzeStatus" style="margin-top:12px;"></div>
+      </div>
+      <div class="card" id="resultsCard" style="display:none;">
+        <h3>Résultats</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num" id="categoryValue">—</div><div class="lbl">Catégorie</div></div>
+          <div class="stat"><div class="num" id="effortValue">—</div><div class="lbl">Effort estimé</div></div>
+        </div>
+        <div id="specFields"></div>
+      </div>
+    </div>
+
+    <div class="section" id="assistant">
+      <h1>Assistant IA</h1>
+      <div class="subtitle">Agent orchestrateur — décide entre analyse et recherche documentaire</div>
+      <div class="card">
+        <input type="text" id="agentInput" placeholder="Ex: Quelle base de données est requise ? / Analyse ce projet">
+        <button class="primary" onclick="askAgent()">Envoyer</button>
+        <div id="agentStatus" style="margin-top:12px;"></div>
+        <div id="agentToolBadge" class="tool-badge" style="display:none;"></div>
+        <div id="agentAnswer" class="answer" style="display:none;"></div>
+      </div>
+    </div>
+
+    <div class="section" id="model">
+      <h1>Modèles Machine Learning</h1>
+      <div class="subtitle">Suivi via MLflow — modèles enregistrés avec alias @champion</div>
+      <div class="card">
+        <h3>Classification — project_category</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num">81.1%</div><div class="lbl">Accuracy</div></div>
+          <div class="stat"><div class="num">0.806</div><div class="lbl">Macro F1-score</div></div>
+          <div class="stat"><div class="num">4</div><div class="lbl">Classes</div></div>
+        </div>
+        <div class="field-label">Algorithme</div>
+        <div>Logistic Regression (baseline) — comparé au Random Forest, performance égale ou supérieure avec moins de complexité.</div>
+      </div>
+      <div class="card">
+        <h3>Régression — estimated_effort_person_days</h3>
+        <div class="stat-grid">
+          <div class="stat"><div class="num">0.717</div><div class="lbl">R²</div></div>
+          <div class="stat"><div class="num">6.93</div><div class="lbl">MAE (jours)</div></div>
+        </div>
+        <div class="field-label">Algorithme</div>
+        <div>Linear Regression (baseline)</div>
+      </div>
+      <div class="card">
+        <h3>Dataset</h3>
+        <div>900 lignes synthétiques générées avec distributions par catégorie, chevauchement volontaire et bruit sur les labels — car ITgate ne pouvait pas fournir de données de projets réels.</div>
+      </div>
+    </div>
+
+    <div class="section" id="deploy">
+      <h1>Déploiement & Infrastructure</h1>
+      <div class="card">
+        <h3>Conteneurisation</h3>
+        <span class="badge">Docker ✓</span>
+        <div style="margin-top:10px;">Application conteneurisée avec FastAPI, MLflow, extraction, RAG et agent — testée et fonctionnelle en conteneur.</div>
+      </div>
+      <div class="card">
+        <h3>Orchestration Kubernetes</h3>
+        <span class="badge">Kubernetes ✓</span>
+        <div style="margin-top:10px;">Deployment + Service + HorizontalPodAutoscaler (2 à 5 réplicas selon l'utilisation CPU). Testé sous charge réelle : montée en charge confirmée de 2 → 3 → 5 pods.</div>
+      </div>
+      <div class="card">
+        <h3>CI/CD</h3>
+        <span class="badge">GitHub Actions ✓</span>
+        <div style="margin-top:10px;">Pipeline automatisé : tests unitaires puis build Docker à chaque push.</div>
+      </div>
+    </div>
   </div>
 </div>
 
 <script>
+document.querySelectorAll('.navitem').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.navitem').forEach(n => n.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    item.classList.add('active');
+    document.getElementById(item.dataset.section).classList.add('active');
+  });
+});
+
 function onFileChosen() {
   const f = document.getElementById('fileInput').files[0];
-  document.getElementById('fileName').textContent = f ? f.name : 'No file selected';
-  document.getElementById('uploadZone').classList.toggle('has-file', !!f);
-  document.getElementById('analyzeBtn').disabled = !f;
+  document.getElementById('fileName').textContent = f ? f.name : 'Aucun fichier sélectionné';
 }
 
 function labelize(key) {
@@ -132,12 +200,9 @@ function renderSpec(spec) {
     'real_time_requirements','constraints','application_type'];
   listFields.forEach(key => {
     const items = spec[key];
-    if (!items || items.length === 0) return; // skip empty -- no info means nothing to show
+    if (!items || items.length === 0) return;
     const div = document.createElement('div');
-    div.className = 'field-group';
-    div.innerHTML = `<div class="label">${labelize(key)}</div><div class="tags">${
-      items.map(i => `<span class="tag">${i}</span>`).join('')
-    }</div>`;
+    div.innerHTML = `<div class="field-label">${labelize(key)}</div><div class="tags">${items.map(i => `<span class="tag">${i}</span>`).join('')}</div>`;
     container.appendChild(div);
   });
 }
@@ -146,47 +211,44 @@ async function analyze() {
   const fileInput = document.getElementById('fileInput');
   const statusDiv = document.getElementById('analyzeStatus');
   const resultsCard = document.getElementById('resultsCard');
-  const askCard = document.getElementById('askCard');
+  if (!fileInput.files.length) { statusDiv.innerHTML = '<div class="error">Choisissez un fichier d\'abord.</div>'; return; }
   resultsCard.style.display = 'none';
-  askCard.style.display = 'none';
-  statusDiv.innerHTML = '<div class="loading">Analyzing document — extracting, classifying, estimating effort...</div>';
-
+  statusDiv.innerHTML = '<div class="loading">Analyse en cours — extraction, classification, estimation...</div>';
   const formData = new FormData();
   formData.append('file', fileInput.files[0]);
   try {
     const res = await fetch('/analyze', { method: 'POST', body: formData });
     const data = await res.json();
-    if (!res.ok) { statusDiv.innerHTML = `<div class="error">Error: ${data.detail || res.status}</div>`; return; }
+    if (!res.ok) { statusDiv.innerHTML = `<div class="error">Erreur : ${data.detail || res.status}</div>`; return; }
     statusDiv.innerHTML = '';
     document.getElementById('categoryValue').textContent = data.classification.project_category;
-    document.getElementById('effortValue').textContent = data.regression.estimated_effort_person_days + ' days';
+    document.getElementById('effortValue').textContent = data.regression.estimated_effort_person_days + 'j';
     renderSpec(data.project_specification);
     resultsCard.style.display = 'block';
-    askCard.style.display = 'block';
-  } catch (e) {
-    statusDiv.innerHTML = `<div class="error">Request failed: ${e.message}</div>`;
-  }
+  } catch (e) { statusDiv.innerHTML = `<div class="error">Échec de la requête : ${e.message}</div>`; }
 }
 
-async function ask() {
-  const question = document.getElementById('questionInput').value;
-  const statusDiv = document.getElementById('askStatus');
-  const answerBox = document.getElementById('askAnswer');
-  if (!question) return;
-  answerBox.style.display = 'none';
-  statusDiv.innerHTML = '<div class="loading">Thinking...</div>';
+async function askAgent() {
+  const message = document.getElementById('agentInput').value;
+  const statusDiv = document.getElementById('agentStatus');
+  const badge = document.getElementById('agentToolBadge');
+  const answerDiv = document.getElementById('agentAnswer');
+  if (!message) return;
+  badge.style.display = 'none'; answerDiv.style.display = 'none';
+  statusDiv.innerHTML = '<div class="loading">L\'agent réfléchit...</div>';
   try {
-    const res = await fetch('/ask', {
+    const res = await fetch('/agent', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ question }),
+      body: JSON.stringify({ message }),
     });
     const data = await res.json();
     statusDiv.innerHTML = '';
-    answerBox.style.display = 'block';
-    answerBox.textContent = res.ok ? data.answer : ('Error: ' + (data.detail || res.status));
-  } catch (e) {
-    statusDiv.innerHTML = `<div class="error">Request failed: ${e.message}</div>`;
-  }
+    if (!res.ok) { statusDiv.innerHTML = `<div class="error">Erreur : ${data.detail || res.status}</div>`; return; }
+    badge.textContent = '🔧 Outil utilisé : ' + (data.tool_used || 'réponse directe');
+    badge.style.display = 'inline-block';
+    answerDiv.style.display = 'block';
+    answerDiv.textContent = typeof data.result === 'string' ? data.result : JSON.stringify(data.result, null, 2);
+  } catch (e) { statusDiv.innerHTML = `<div class="error">Échec de la requête : ${e.message}</div>`; }
 }
 </script>
 </body>
