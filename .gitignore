@@ -5,3 +5,8 @@ __pycache__/
 mlruns/
 mlflow.db 
 *.tar
+data/chroma/
+data/raw/
+data/processed/
+boamp_discover.txt
+confusion_matrix.png
