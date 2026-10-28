@@ -1,4 +1,4 @@
-# MLOps Platform | Intelligent Project Requirements Analysis
+# MLOps Platform | Intelligent Project Requirements Analysis 
 
 **An end-to-end MLOps platform that transforms client requirement documents into structured project insights, classifies software projects, estimates development effort, and integrates machine learning with automated deployment and Kubernetes orchestration.**
 
@@ -47,15 +47,14 @@ The extracted information can serve as input for subsequent analysis and project
 
 ### 2. Machine Learning Classification
 
-A supervised machine learning model classifies software projects into five technical categories:
+A supervised machine learning model classifies software projects into four technical categories:
 
 | Category           | Description                                              |
 | ------------------ | -------------------------------------------------------- |
-| Web Application    | Web-based platforms and applications                     |
-| Mobile Application | Applications designed for mobile devices                 |
-| AI/ML              | Artificial intelligence and machine learning solutions   |
-| Data/BI            | Data engineering, analytics, and business intelligence   |
-| Cloud/DevOps       | Cloud infrastructure, automation, and deployment systems |
+| Web Application | Web-based platforms and applications |
+| Mobile Application | Applications designed for mobile devices |
+| AI/ML & Data | Artificial intelligence, machine learning and data projects |
+| Cloud/DevOps & Infrastructure | Cloud infrastructure, automation and deployment systems |
 
 The classification pipeline uses project-related information to predict the most relevant category.
 
